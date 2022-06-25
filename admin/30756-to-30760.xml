@@ -1,0 +1,2403 @@
+<ENVELOPE>
+                  <HEADER>
+                    <TALLYREQUEST>Import Data</TALLYREQUEST>
+                  </HEADER>
+                  <BODY>
+                    <IMPORTDATA>
+                      <REQUESTDESC>
+                        <REPORTNAME>Vouchers</REPORTNAME>
+                        <STATICVARIABLES>
+                          <SVCURRENTCOMPANY>Expede Global - (21-22)</SVCURRENTCOMPANY>
+                        </STATICVARIABLES>
+                      </REQUESTDESC>
+                      <REQUESTDATA>
+                        <TALLYMESSAGE xmlns:UDF="TallyUDF"><VOUCHER REMOTEID="" VCHKEY="" VCHTYPE="Sales Dry Fruit" ACTION="Create" OBJVIEW="Invoice Voucher View">
+                            <ADDRESS.LIST TYPE="String"><ADDRESS>
+                              Shop no 5 B.P road near congresh office </ADDRESS><ADDRESS>same,*Bhayandar(E)*</ADDRESS><ADDRESS>Mumbai - 401105</ADDRESS><ADDRESS>Tel: 8879395207</ADDRESS>
+                            </ADDRESS.LIST>
+                            <BASICBUYERADDRESS.LIST TYPE="String">
+                            <BASICBUYERADDRESS>
+                              Shop no 5 B.P road near congresh office </BASICBUYERADDRESS><BASICBUYERADDRESS>same,*Bhayandar(E)*</BASICBUYERADDRESS><BASICBUYERADDRESS>Mumbai - 401105</BASICBUYERADDRESS><BASICBUYERADDRESS>Tel: 8879395207</BASICBUYERADDRESS>
+                              <BASICBUYERADDRESS></BASICBUYERADDRESS>
+                            </BASICBUYERADDRESS.LIST>
+                            <BASICORDERTERMS.LIST TYPE="String">
+                              <BASICORDERTERMS>
+                              </BASICORDERTERMS>
+                            </BASICORDERTERMS.LIST>
+                            <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                              <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                            </OLDAUDITENTRYIDS.LIST>
+                            <DATE>20220326</DATE>
+                            <GUID />
+                            <STATENAME>Maharashtra</STATENAME>
+                            <GSTREGISTRATIONTYPE>Unregistered</GSTREGISTRATIONTYPE>
+                            <NARRATION>
+                            </NARRATION>
+                            <COUNTRYOFRESIDENCE>India</COUNTRYOFRESIDENCE>
+                            <PARTYGSTIN></PARTYGSTIN>
+                            <TAXUNITNAME />
+                            <PARTYNAME>gaytri store (1424)</PARTYNAME>
+                            <VOUCHERTYPENAME>Dry Fruit Sales</VOUCHERTYPENAME>
+                            <REFERENCE>E/O/21-22/0031775</REFERENCE>
+                            <VOUCHERNUMBER>D2122-30756</VOUCHERNUMBER>
+                            <PARTYLEDGERNAME>gaytri store (1424)</PARTYLEDGERNAME>
+                            <BASICBASEPARTYNAME>gaytri store (1424)</BASICBASEPARTYNAME>
+                            <CSTFORMISSUETYPE />
+                            <CSTFORMRECVTYPE />
+                            <BUYERSCSTNUMBER>
+                            </BUYERSCSTNUMBER>
+                            <FBTPAYMENTTYPE />
+                            <PERSISTEDVIEW>Invoice Voucher View</PERSISTEDVIEW>
+                            <PLACEOFSUPPLY>Maharashtra</PLACEOFSUPPLY>
+                            <CONSIGNEEGSTIN></CONSIGNEEGSTIN>
+                            <BASICSHIPPEDBY>
+                            </BASICSHIPPEDBY>
+                            <BASICBUYERNAME>gaytri store (1424)</BASICBUYERNAME>
+                            <BASICSHIPDOCUMENTNO>
+                            </BASICSHIPDOCUMENTNO>
+                            <BASICORDERREF>
+                            </BASICORDERREF>
+                            <GSTREGISTRATIONTYPE>Regular</GSTREGISTRATIONTYPE>
+                            <BILLOFLADINGNO>
+                            </BILLOFLADINGNO>
+                            <BILLOFLADINGDATE>
+                            </BILLOFLADINGDATE>
+                            <BASICSHIPVESSELNO>
+                            </BASICSHIPVESSELNO>
+                            <BASICFINALDESTINATION>
+                            </BASICFINALDESTINATION>
+                            <BASICBUYERSSALESTAXNO>
+                            </BASICBUYERSSALESTAXNO>
+                            <BASICDUEDATEOFPYMT>
+                            </BASICDUEDATEOFPYMT>
+                            <BASICDATETIMEOFINVOICE>26 Mar 22</BASICDATETIMEOFINVOICE>
+                            <BASICDATETIMEOFREMOVAL>26 Mar 22</BASICDATETIMEOFREMOVAL>
+                            <VCHGSTCLASS />
+                            <CONSIGNEESTATENAME>
+                            </CONSIGNEESTATENAME>
+                            <COSTCENTRENAME>
+                            </COSTCENTRENAME>
+                            <DIFFACTUALQTY>No</DIFFACTUALQTY>
+                            <ISMSTFROMSYNC>No</ISMSTFROMSYNC>
+                            <ASORIGINAL>No</ASORIGINAL>
+                            <AUDITED>No</AUDITED>
+                            <FORJOBCOSTING>No</FORJOBCOSTING>
+                            <ISOPTIONAL>No</ISOPTIONAL>
+                            <EFFECTIVEDATE>20220326</EFFECTIVEDATE>
+                            <USEFOREXCISE>No</USEFOREXCISE>
+                            <ISFORJOBWORKIN>No</ISFORJOBWORKIN>
+                            <ALLOWCONSUMPTION>No</ALLOWCONSUMPTION>
+                            <USEFORINTEREST>No</USEFORINTEREST>
+                            <USEFORGAINLOSS>No</USEFORGAINLOSS>
+                            <USEFORGODOWNTRANSFER>No</USEFORGODOWNTRANSFER>
+                            <USEFORCOMPOUND>No</USEFORCOMPOUND>
+                            <USEFORSERVICETAX>No</USEFORSERVICETAX>
+                            <ISEXCISEVOUCHER>No</ISEXCISEVOUCHER>
+                            <EXCISETAXOVERRIDE>No</EXCISETAXOVERRIDE>
+                            <USEFORTAXUNITTRANSFER>No</USEFORTAXUNITTRANSFER>
+                            <EXCISEOPENING>No</EXCISEOPENING>
+                            <USEFORFINALPRODUCTION>No</USEFORFINALPRODUCTION>
+                            <ISTDSOVERRIDDEN>No</ISTDSOVERRIDDEN>
+                            <ISTCSOVERRIDDEN>No</ISTCSOVERRIDDEN>
+                            <ISTDSTCSCASHVCH>No</ISTDSTCSCASHVCH>
+                            <INCLUDEADVPYMTVCH>No</INCLUDEADVPYMTVCH>
+                            <ISSUBWORKSCONTRACT>No</ISSUBWORKSCONTRACT>
+                            <ISVATOVERRIDDEN>No</ISVATOVERRIDDEN>
+                            <IGNOREORIGVCHDATE>No</IGNOREORIGVCHDATE>
+                            <ISSERVICETAXOVERRIDDEN>No</ISSERVICETAXOVERRIDDEN>
+                            <ISISDVOUCHER>No</ISISDVOUCHER>
+                            <ISEXCISEOVERRIDDEN>No</ISEXCISEOVERRIDDEN>
+                            <ISEXCISESUPPLYVCH>No</ISEXCISESUPPLYVCH>
+                            <ISGSTOVERRIDDEN>No</ISGSTOVERRIDDEN>
+                            <GSTNOTEXPORTED>No</GSTNOTEXPORTED>
+                            <ISVATPRINCIPALACCOUNT>No</ISVATPRINCIPALACCOUNT>
+                            <ISSHIPPINGWITHINSTATE>No</ISSHIPPINGWITHINSTATE>
+                            <ISCANCELLED>No</ISCANCELLED>
+                            <HASCASHFLOW>No</HASCASHFLOW>
+                            <ISPOSTDATED>No</ISPOSTDATED>
+                            <USETRACKINGNUMBER>No</USETRACKINGNUMBER>
+                            <ISINVOICE>Yes</ISINVOICE>
+                            <MFGJOURNAL>No</MFGJOURNAL>
+                            <HASDISCOUNTS>No</HASDISCOUNTS>
+                            <ISCOSTCENTRE> No </ISCOSTCENTRE>
+                            <ASPAYSLIP>No</ASPAYSLIP>
+                            <ISSTXNONREALIZEDVCH>No</ISSTXNONREALIZEDVCH>
+                            <ISEXCISEMANUFACTURERON>No</ISEXCISEMANUFACTURERON>
+                            <ISBLANKCHEQUE>No</ISBLANKCHEQUE>
+                            <ISVOID>No</ISVOID>
+                            <ISONHOLD>No</ISONHOLD>
+                            <ORDERLINESTATUS>No</ORDERLINESTATUS>
+                            <VATISAGNSTCANCSALES>No</VATISAGNSTCANCSALES>
+                            <VATISPURCEXEMPTED>No</VATISPURCEXEMPTED>
+                            <ISVATRESTAXINVOICE>No</ISVATRESTAXINVOICE>
+                            <VATISASSESABLECALCVCH>Yes</VATISASSESABLECALCVCH>
+                            <ISVATDUTYPAID>Yes</ISVATDUTYPAID>
+                            <ISDELIVERYSAMEASCONSIGNEE>No</ISDELIVERYSAMEASCONSIGNEE>
+                            <ISDISPATCHSAMEASCONSIGNOR>No</ISDISPATCHSAMEASCONSIGNOR>
+                            <ISDELETED>No</ISDELETED>
+                            <CHANGEVCHMODE>No</CHANGEVCHMODE>
+                            <ALTERID />
+                            <MASTERID />
+                            <VOUCHERKEY />
+                            <EXCLUDEDTAXATIONS.LIST />
+                            <OLDAUDITENTRIES.LIST />
+                            <ACCOUNTAUDITENTRIES.LIST />
+                            <AUDITENTRIES.LIST />
+                            <DUTYHEADDETAILS.LIST />
+                            <SUPPLEMENTARYDUTYHEADDETAILS.LIST />
+                            <INVOICEDELNOTES.LIST>
+                              <BASICSHIPPINGDATE>
+                              </BASICSHIPPINGDATE>
+                              <BASICSHIPDELIVERYNOTE>
+                              </BASICSHIPDELIVERYNOTE>
+                            </INVOICEDELNOTES.LIST>
+                            <INVOICEINDENTLIST.LIST />
+                            <ATTENDANCEENTRIES.LIST />
+                            <ORIGINVOICEDETAILS.LIST />
+                            <INVOICEEXPORTLIST.LIST />
+                            <INVOICEORDERLIST.LIST>
+                              <BASICORDERDATE>
+                              </BASICORDERDATE>
+                              <BASICPURCHASEORDERNO>
+                              </BASICPURCHASEORDERNO>
+                            </INVOICEORDERLIST.LIST>
+                            <LEDGERENTRIES.LIST>
+                              <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                                <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                              </OLDAUDITENTRYIDS.LIST>
+                              <LEDGERNAME>gaytri store(1424)</LEDGERNAME>
+                              <GSTCLASS />
+                              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+                              <LEDGERFROMITEM>No</LEDGERFROMITEM>
+                              <REMOVEZEROENTRIES>No</REMOVEZEROENTRIES>
+                              <ISPARTYLEDGER>Yes</ISPARTYLEDGER>
+                              <ISLASTDEEMEDPOSITIVE>Yes</ISLASTDEEMEDPOSITIVE>
+                              <AMOUNT> -2270.00</AMOUNT>
+                              <SERVICETAXDETAILS.LIST />
+                              <BANKALLOCATIONS.LIST />
+                              <BILLALLOCATIONS.LIST>
+                                <NAME>order no D2122-30756 </NAME>
+                                <BILLTYPE>New Ref</BILLTYPE>
+                                <TDSDEDUCTEEISSPECIALRATE>No</TDSDEDUCTEEISSPECIALRATE>
+                                <AMOUNT> -2270.00</AMOUNT>
+                                <INTERESTCOLLECTION.LIST />
+                                <STBILLCATEGORIES.LIST />
+                              </BILLALLOCATIONS.LIST>
+                              <INTERESTCOLLECTION.LIST />
+                              <OLDAUDITENTRIES.LIST />
+                              <ACCOUNTAUDITENTRIES.LIST />
+                              <AUDITENTRIES.LIST />
+                              <INPUTCRALLOCS.LIST />
+                              <DUTYHEADDETAILS.LIST />
+                              <EXCISEDUTYHEADDETAILS.LIST />
+                              <RATEDETAILS.LIST />
+                              <SUMMARYALLOCS.LIST />
+                              <STPYMTDETAILS.LIST />
+                              <EXCISEPAYMENTALLOCATIONS.LIST />
+                              <TAXBILLALLOCATIONS.LIST />
+                              <TAXOBJECTALLOCATIONS.LIST />
+                              <TDSEXPENSEALLOCATIONS.LIST />
+                              <VATSTATUTORYDETAILS.LIST />
+                              <COSTTRACKALLOCATIONS.LIST />
+                              <REFVOUCHERDETAILS.LIST />
+                              <INVOICEWISEDETAILS.LIST />
+                              <VATITCDETAILS.LIST />
+                              <ADVANCETAXDETAILS.LIST />
+                            </LEDGERENTRIES.LIST>
+                            <ALLINVENTORYENTRIES.LIST>
+                                      <BASICUSERDESCRIPTION.LIST TYPE="String">
+                                        <BASICUSERDESCRIPTION>
+                                        </BASICUSERDESCRIPTION>
+                                      </BASICUSERDESCRIPTION.LIST>
+                                      <STOCKITEMNAME>PISTA - SALTED - 2020</STOCKITEMNAME>
+                                      <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                                      <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+                                      <ISAUTONEGATE>No</ISAUTONEGATE>
+                                      <ISCUSTOMSCLEARANCE>No</ISCUSTOMSCLEARANCE>
+                                      <ISTRACKCOMPONENT>No</ISTRACKCOMPONENT>
+                                      <ISTRACKPRODUCTION>No</ISTRACKPRODUCTION>
+                                      <ISPRIMARYITEM>No</ISPRIMARYITEM>
+                                      <ISSCRAP>No</ISSCRAP>
+                                      <RATE>839.29/KG</RATE>
+                                      <DISCOUNT>
+                                      </DISCOUNT>
+                                      <AMOUNT>839.29</AMOUNT>
+                                      <VATASSBLVALUE>839.29</VATASSBLVALUE>
+                                      <ACTUALQTY>1</ACTUALQTY>
+                                      <BILLEDQTY>1</BILLEDQTY>
+                                      <BATCHALLOCATIONS.LIST>
+                                        <MFDON>
+                                        </MFDON>
+                                        <GODOWNNAME>Vasai - Godown</GODOWNNAME>
+                                        <BATCHNAME> Primary Batch</BATCHNAME>
+                                        <DESTINATIONGODOWNNAME>Vasai - Godown</DESTINATIONGODOWNNAME>
+                                        <INDENTNO />
+                                        <ORDERNO />
+                                        <TRACKINGNUMBER />
+                                        <DYNAMICCSTISCLEARED>No</DYNAMICCSTISCLEARED>
+                                        <AMOUNT>839.29</AMOUNT>
+                                        <ACTUALQTY>1 KG</ACTUALQTY>
+                                        <BILLEDQTY>1 KG</BILLEDQTY>
+                                        <ADDITIONALDETAILS.LIST />
+                                        <VOUCHERCOMPONENTLIST.LIST />
+                                      </BATCHALLOCATIONS.LIST>
+                                      <ACCOUNTINGALLOCATIONS.LIST>
+                                        <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                                          <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                                        </OLDAUDITENTRYIDS.LIST>
+                                        <LEDGERNAME>Sale - Vasai</LEDGERNAME>
+                                        <GSTCLASS />
+                                        <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                                        <LEDGERFROMITEM>No</LEDGERFROMITEM>
+                                        <REMOVEZEROENTRIES>No</REMOVEZEROENTRIES>
+                                        <ISPARTYLEDGER>No</ISPARTYLEDGER>
+                                        <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+                                        <AMOUNT>839.29</AMOUNT>
+                                        <SERVICETAXDETAILS.LIST />
+                                        <BANKALLOCATIONS.LIST />
+                                        <BILLALLOCATIONS.LIST />
+                                        <INTERESTCOLLECTION.LIST />
+                                        <OLDAUDITENTRIES.LIST />
+                                        <ACCOUNTAUDITENTRIES.LIST />
+                                        <AUDITENTRIES.LIST />
+                                        <INPUTCRALLOCS.LIST />
+                                        <DUTYHEADDETAILS.LIST />
+                                        <EXCISEDUTYHEADDETAILS.LIST />
+                                        <RATEDETAILS.LIST />
+                                        <SUMMARYALLOCS.LIST />
+                                        <STPYMTDETAILS.LIST />
+                                        <EXCISEPAYMENTALLOCATIONS.LIST />
+                                        <TAXBILLALLOCATIONS.LIST />
+                                        <TAXOBJECTALLOCATIONS.LIST />
+                                        <TDSEXPENSEALLOCATIONS.LIST />
+                                        <VATSTATUTORYDETAILS.LIST />
+                                        <COSTTRACKALLOCATIONS.LIST />
+                                        <REFVOUCHERDETAILS.LIST />
+                                        <INVOICEWISEDETAILS.LIST />
+                                        <VATITCDETAILS.LIST />
+                                        <ADVANCETAXDETAILS.LIST />
+                                      </ACCOUNTINGALLOCATIONS.LIST>
+                                      <DUTYHEADDETAILS.LIST />
+                                      <SUPPLEMENTARYDUTYHEADDETAILS.LIST />
+                                      <TAXOBJECTALLOCATIONS.LIST />
+                                      <REFVOUCHERDETAILS.LIST />
+                                      <EXCISEALLOCATIONS.LIST />
+                                      <EXPENSEALLOCATIONS.LIST />
+                                    </ALLINVENTORYENTRIES.LIST><ALLINVENTORYENTRIES.LIST>
+                                      <BASICUSERDESCRIPTION.LIST TYPE="String">
+                                        <BASICUSERDESCRIPTION>
+                                        </BASICUSERDESCRIPTION>
+                                      </BASICUSERDESCRIPTION.LIST>
+                                      <STOCKITEMNAME>KAJU - S 400</STOCKITEMNAME>
+                                      <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                                      <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+                                      <ISAUTONEGATE>No</ISAUTONEGATE>
+                                      <ISCUSTOMSCLEARANCE>No</ISCUSTOMSCLEARANCE>
+                                      <ISTRACKCOMPONENT>No</ISTRACKCOMPONENT>
+                                      <ISTRACKPRODUCTION>No</ISTRACKPRODUCTION>
+                                      <ISPRIMARYITEM>No</ISPRIMARYITEM>
+                                      <ISSCRAP>No</ISSCRAP>
+                                      <RATE>633.33/KG</RATE>
+                                      <DISCOUNT>
+                                      </DISCOUNT>
+                                      <AMOUNT>1266.66</AMOUNT>
+                                      <VATASSBLVALUE>1266.66</VATASSBLVALUE>
+                                      <ACTUALQTY>2</ACTUALQTY>
+                                      <BILLEDQTY>2</BILLEDQTY>
+                                      <BATCHALLOCATIONS.LIST>
+                                        <MFDON>
+                                        </MFDON>
+                                        <GODOWNNAME>Vasai - Godown</GODOWNNAME>
+                                        <BATCHNAME> Primary Batch</BATCHNAME>
+                                        <DESTINATIONGODOWNNAME>Vasai - Godown</DESTINATIONGODOWNNAME>
+                                        <INDENTNO />
+                                        <ORDERNO />
+                                        <TRACKINGNUMBER />
+                                        <DYNAMICCSTISCLEARED>No</DYNAMICCSTISCLEARED>
+                                        <AMOUNT>1266.66</AMOUNT>
+                                        <ACTUALQTY>2 KG</ACTUALQTY>
+                                        <BILLEDQTY>2 KG</BILLEDQTY>
+                                        <ADDITIONALDETAILS.LIST />
+                                        <VOUCHERCOMPONENTLIST.LIST />
+                                      </BATCHALLOCATIONS.LIST>
+                                      <ACCOUNTINGALLOCATIONS.LIST>
+                                        <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                                          <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                                        </OLDAUDITENTRYIDS.LIST>
+                                        <LEDGERNAME>Sale - Vasai</LEDGERNAME>
+                                        <GSTCLASS />
+                                        <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                                        <LEDGERFROMITEM>No</LEDGERFROMITEM>
+                                        <REMOVEZEROENTRIES>No</REMOVEZEROENTRIES>
+                                        <ISPARTYLEDGER>No</ISPARTYLEDGER>
+                                        <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+                                        <AMOUNT>1266.66</AMOUNT>
+                                        <SERVICETAXDETAILS.LIST />
+                                        <BANKALLOCATIONS.LIST />
+                                        <BILLALLOCATIONS.LIST />
+                                        <INTERESTCOLLECTION.LIST />
+                                        <OLDAUDITENTRIES.LIST />
+                                        <ACCOUNTAUDITENTRIES.LIST />
+                                        <AUDITENTRIES.LIST />
+                                        <INPUTCRALLOCS.LIST />
+                                        <DUTYHEADDETAILS.LIST />
+                                        <EXCISEDUTYHEADDETAILS.LIST />
+                                        <RATEDETAILS.LIST />
+                                        <SUMMARYALLOCS.LIST />
+                                        <STPYMTDETAILS.LIST />
+                                        <EXCISEPAYMENTALLOCATIONS.LIST />
+                                        <TAXBILLALLOCATIONS.LIST />
+                                        <TAXOBJECTALLOCATIONS.LIST />
+                                        <TDSEXPENSEALLOCATIONS.LIST />
+                                        <VATSTATUTORYDETAILS.LIST />
+                                        <COSTTRACKALLOCATIONS.LIST />
+                                        <REFVOUCHERDETAILS.LIST />
+                                        <INVOICEWISEDETAILS.LIST />
+                                        <VATITCDETAILS.LIST />
+                                        <ADVANCETAXDETAILS.LIST />
+                                      </ACCOUNTINGALLOCATIONS.LIST>
+                                      <DUTYHEADDETAILS.LIST />
+                                      <SUPPLEMENTARYDUTYHEADDETAILS.LIST />
+                                      <TAXOBJECTALLOCATIONS.LIST />
+                                      <REFVOUCHERDETAILS.LIST />
+                                      <EXCISEALLOCATIONS.LIST />
+                                      <EXPENSEALLOCATIONS.LIST />
+                                    </ALLINVENTORYENTRIES.LIST>
+                            <LEDGERENTRIES.LIST>
+                              <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                                <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                              </OLDAUDITENTRYIDS.LIST>
+                              <BASICRATEOFINVOICETAX.LIST TYPE="Number">
+                                <BASICRATEOFINVOICETAX>0</BASICRATEOFINVOICETAX>
+                              </BASICRATEOFINVOICETAX.LIST>
+                              <ROUNDTYPE />
+                              <LEDGERNAME>CGST</LEDGERNAME>
+                              <GSTCLASS />
+                              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                              <LEDGERFROMITEM>No</LEDGERFROMITEM>
+                              <REMOVEZEROENTRIES>No</REMOVEZEROENTRIES>
+                              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+                              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+                              <AMOUNT> 82.02</AMOUNT>
+                              <VATEXPAMOUNT>82.02</VATEXPAMOUNT>
+                              <SERVICETAXDETAILS.LIST />
+                              <BANKALLOCATIONS.LIST />
+                              <SERVICETAXDETAILS.LIST>
+                              </SERVICETAXDETAILS.LIST>
+                              <CATEGORYALLOCATIONS.LIST>
+                              </CATEGORYALLOCATIONS.LIST>
+                              <BANKALLOCATIONS.LIST>
+                              </BANKALLOCATIONS.LIST>
+                              <BILLALLOCATIONS.LIST>
+                              </BILLALLOCATIONS.LIST>
+                              <INTERESTCOLLECTION.LIST>
+                              </INTERESTCOLLECTION.LIST>
+                              <OLDAUDITENTRIES.LIST>
+                              </OLDAUDITENTRIES.LIST>
+                              <ACCOUNTAUDITENTRIES.LIST>
+                              </ACCOUNTAUDITENTRIES.LIST>
+                              <AUDITENTRIES.LIST>
+                              </AUDITENTRIES.LIST>
+                              <INPUTCRALLOCS.LIST>
+                              </INPUTCRALLOCS.LIST>
+                              <DUTYHEADDETAILS.LIST>
+                              </DUTYHEADDETAILS.LIST>
+                              <EXCISEDUTYHEADDETAILS.LIST>
+                              </EXCISEDUTYHEADDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Integrated Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Central Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>State Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Cess</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <SUMMARYALLOCS.LIST>
+                              </SUMMARYALLOCS.LIST>
+                              <STPYMTDETAILS.LIST>
+                              </STPYMTDETAILS.LIST>
+                              <EXCISEPAYMENTALLOCATIONS.LIST>
+                              </EXCISEPAYMENTALLOCATIONS.LIST>
+                              <TAXBILLALLOCATIONS.LIST>
+                              </TAXBILLALLOCATIONS.LIST>
+                              <TAXOBJECTALLOCATIONS.LIST>
+                              </TAXOBJECTALLOCATIONS.LIST>
+                              <TDSEXPENSEALLOCATIONS.LIST>
+                              </TDSEXPENSEALLOCATIONS.LIST>
+                              <VATSTATUTORYDETAILS.LIST>
+                              </VATSTATUTORYDETAILS.LIST>
+                              <COSTTRACKALLOCATIONS.LIST>
+                              </COSTTRACKALLOCATIONS.LIST>
+                              <REFVOUCHERDETAILS.LIST>
+                              </REFVOUCHERDETAILS.LIST>
+                              <INVOICEWISEDETAILS.LIST>
+                              </INVOICEWISEDETAILS.LIST>
+                              <VATITCDETAILS.LIST>
+                              </VATITCDETAILS.LIST>
+                              <ADVANCETAXDETAILS.LIST>
+                              </ADVANCETAXDETAILS.LIST>
+                            </LEDGERENTRIES.LIST>
+                            <LEDGERENTRIES.LIST>
+                              <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                                <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                              </OLDAUDITENTRYIDS.LIST>
+                              <BASICRATEOFINVOICETAX.LIST TYPE="Number">
+                                <BASICRATEOFINVOICETAX>0</BASICRATEOFINVOICETAX>
+                              </BASICRATEOFINVOICETAX.LIST>
+                              <ROUNDTYPE />
+                              <LEDGERNAME>SGST</LEDGERNAME>
+                              <GSTCLASS />
+                              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                              <LEDGERFROMITEM>No</LEDGERFROMITEM>
+                              <REMOVEZEROENTRIES>No</REMOVEZEROENTRIES>
+                              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+                              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+                              <AMOUNT>82.02</AMOUNT>
+                              <VATEXPAMOUNT>82.02</VATEXPAMOUNT>
+                              <SERVICETAXDETAILS.LIST />
+                              <BANKALLOCATIONS.LIST />
+                              <SERVICETAXDETAILS.LIST>
+                              </SERVICETAXDETAILS.LIST>
+                              <CATEGORYALLOCATIONS.LIST>
+                              </CATEGORYALLOCATIONS.LIST>
+                              <BANKALLOCATIONS.LIST>
+                              </BANKALLOCATIONS.LIST>
+                              <BILLALLOCATIONS.LIST>
+                              </BILLALLOCATIONS.LIST>
+                              <INTERESTCOLLECTION.LIST>
+                              </INTERESTCOLLECTION.LIST>
+                              <OLDAUDITENTRIES.LIST>
+                              </OLDAUDITENTRIES.LIST>
+                              <ACCOUNTAUDITENTRIES.LIST>
+                              </ACCOUNTAUDITENTRIES.LIST>
+                              <AUDITENTRIES.LIST>
+                              </AUDITENTRIES.LIST>
+                              <INPUTCRALLOCS.LIST>
+                              </INPUTCRALLOCS.LIST>
+                              <DUTYHEADDETAILS.LIST>
+                              </DUTYHEADDETAILS.LIST>
+                              <EXCISEDUTYHEADDETAILS.LIST>
+                              </EXCISEDUTYHEADDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Integrated Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Central Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>State Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Cess</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <SUMMARYALLOCS.LIST>
+                              </SUMMARYALLOCS.LIST>
+                              <STPYMTDETAILS.LIST>
+                              </STPYMTDETAILS.LIST>
+                              <EXCISEPAYMENTALLOCATIONS.LIST>
+                              </EXCISEPAYMENTALLOCATIONS.LIST>
+                              <TAXBILLALLOCATIONS.LIST>
+                              </TAXBILLALLOCATIONS.LIST>
+                              <TAXOBJECTALLOCATIONS.LIST>
+                              </TAXOBJECTALLOCATIONS.LIST>
+                              <TDSEXPENSEALLOCATIONS.LIST>
+                              </TDSEXPENSEALLOCATIONS.LIST>
+                              <VATSTATUTORYDETAILS.LIST>
+                              </VATSTATUTORYDETAILS.LIST>
+                              <COSTTRACKALLOCATIONS.LIST>
+                              </COSTTRACKALLOCATIONS.LIST>
+                              <REFVOUCHERDETAILS.LIST>
+                              </REFVOUCHERDETAILS.LIST>
+                              <INVOICEWISEDETAILS.LIST>
+                              </INVOICEWISEDETAILS.LIST>
+                              <VATITCDETAILS.LIST>
+                              </VATITCDETAILS.LIST>
+                              <ADVANCETAXDETAILS.LIST>
+                              </ADVANCETAXDETAILS.LIST>
+                            </LEDGERENTRIES.LIST>
+                            <PAYROLLMODEOFPAYMENT.LIST />
+                            <ATTDRECORDS.LIST />
+                            <TEMPGSTRATEDETAILS.LIST />
+                          <LEDGERENTRIES.LIST>
+                               <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                                <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                               </OLDAUDITENTRYIDS.LIST>
+                               <ROUNDTYPE>Normal Rounding</ROUNDTYPE>
+                               <LEDGERNAME>Round Off</LEDGERNAME>
+                               <GSTCLASS/>
+                               <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                               <LEDGERFROMITEM>No</LEDGERFROMITEM>
+                               <REMOVEZEROENTRIES>No</REMOVEZEROENTRIES>
+                               <ISPARTYLEDGER>No</ISPARTYLEDGER>
+                               <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+                               <ISCAPVATTAXALTERED>No</ISCAPVATTAXALTERED>
+                               <ISCAPVATNOTCLAIMED>No</ISCAPVATNOTCLAIMED>
+                               <ROUNDLIMIT> 1</ROUNDLIMIT>
+                               <AMOUNT>0.01</AMOUNT>
+                               <VATEXPAMOUNT>0.01</VATEXPAMOUNT>
+                               <INVOICEROUNDINGDIFFVAL>0.01</INVOICEROUNDINGDIFFVAL>
+                               <SERVICETAXDETAILS.LIST>       </SERVICETAXDETAILS.LIST>
+                               <BANKALLOCATIONS.LIST>       </BANKALLOCATIONS.LIST>
+                               <BILLALLOCATIONS.LIST>       </BILLALLOCATIONS.LIST>
+                               <INTERESTCOLLECTION.LIST>       </INTERESTCOLLECTION.LIST>
+                               <OLDAUDITENTRIES.LIST>       </OLDAUDITENTRIES.LIST>
+                               <ACCOUNTAUDITENTRIES.LIST>       </ACCOUNTAUDITENTRIES.LIST>
+                               <AUDITENTRIES.LIST>       </AUDITENTRIES.LIST>
+                               <INPUTCRALLOCS.LIST>       </INPUTCRALLOCS.LIST>
+                               <DUTYHEADDETAILS.LIST>       </DUTYHEADDETAILS.LIST>
+                               <EXCISEDUTYHEADDETAILS.LIST>       </EXCISEDUTYHEADDETAILS.LIST>
+                               <RATEDETAILS.LIST>       </RATEDETAILS.LIST>
+                               <SUMMARYALLOCS.LIST>       </SUMMARYALLOCS.LIST>
+                               <STPYMTDETAILS.LIST>       </STPYMTDETAILS.LIST>
+                               <EXCISEPAYMENTALLOCATIONS.LIST>       </EXCISEPAYMENTALLOCATIONS.LIST>
+                               <TAXBILLALLOCATIONS.LIST>       </TAXBILLALLOCATIONS.LIST>
+                               <TAXOBJECTALLOCATIONS.LIST>       </TAXOBJECTALLOCATIONS.LIST>
+                               <TDSEXPENSEALLOCATIONS.LIST>       </TDSEXPENSEALLOCATIONS.LIST>
+                               <VATSTATUTORYDETAILS.LIST>       </VATSTATUTORYDETAILS.LIST>
+                               <COSTTRACKALLOCATIONS.LIST>       </COSTTRACKALLOCATIONS.LIST>
+                               <REFVOUCHERDETAILS.LIST>       </REFVOUCHERDETAILS.LIST>
+                               <INVOICEWISEDETAILS.LIST>       </INVOICEWISEDETAILS.LIST>
+                               <VATITCDETAILS.LIST>       </VATITCDETAILS.LIST>
+                               <ADVANCETAXDETAILS.LIST>       </ADVANCETAXDETAILS.LIST>
+                              </LEDGERENTRIES.LIST>
+                          </VOUCHER><VOUCHER REMOTEID="" VCHKEY="" VCHTYPE="Sales Dry Fruit" ACTION="Create" OBJVIEW="Invoice Voucher View">
+                            <ADDRESS.LIST TYPE="String"><ADDRESS>
+                              Tain villa co-op . hsg soc. ltd 526</ADDRESS><ADDRESS>Shop no 5. Puja nagar</ADDRESS><ADDRESS>naya nagar</ADDRESS><ADDRESS>Mira road (E) Thane 401107.</ADDRESS><ADDRESS>same,*Mira Road(E)*</ADDRESS><ADDRESS>Mumbai - 401107</ADDRESS><ADDRESS>Tel: 9004927449</ADDRESS>
+                            </ADDRESS.LIST>
+                            <BASICBUYERADDRESS.LIST TYPE="String">
+                            <BASICBUYERADDRESS>
+                              Tain villa co-op . hsg soc. ltd 526</BASICBUYERADDRESS><BASICBUYERADDRESS>Shop no 5. Puja nagar</BASICBUYERADDRESS><BASICBUYERADDRESS>naya nagar</BASICBUYERADDRESS><BASICBUYERADDRESS>Mira road (E) Thane 401107.</BASICBUYERADDRESS><BASICBUYERADDRESS>same,*Mira Road(E)*</BASICBUYERADDRESS><BASICBUYERADDRESS>Mumbai - 401107</BASICBUYERADDRESS><BASICBUYERADDRESS>Tel: 9004927449</BASICBUYERADDRESS>
+                              <BASICBUYERADDRESS></BASICBUYERADDRESS>
+                            </BASICBUYERADDRESS.LIST>
+                            <BASICORDERTERMS.LIST TYPE="String">
+                              <BASICORDERTERMS>
+                              </BASICORDERTERMS>
+                            </BASICORDERTERMS.LIST>
+                            <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                              <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                            </OLDAUDITENTRYIDS.LIST>
+                            <DATE>20220326</DATE>
+                            <GUID />
+                            <STATENAME>Maharashtra</STATENAME>
+                            <GSTREGISTRATIONTYPE>Unregistered</GSTREGISTRATIONTYPE>
+                            <NARRATION>
+                            </NARRATION>
+                            <COUNTRYOFRESIDENCE>India</COUNTRYOFRESIDENCE>
+                            <PARTYGSTIN></PARTYGSTIN>
+                            <TAXUNITNAME />
+                            <PARTYNAME>M T L Masala (3251)</PARTYNAME>
+                            <VOUCHERTYPENAME>Dry Fruit Sales</VOUCHERTYPENAME>
+                            <REFERENCE>E/O/21-22/0031776</REFERENCE>
+                            <VOUCHERNUMBER>D2122-30757</VOUCHERNUMBER>
+                            <PARTYLEDGERNAME>M T L Masala (3251)</PARTYLEDGERNAME>
+                            <BASICBASEPARTYNAME>M T L Masala (3251)</BASICBASEPARTYNAME>
+                            <CSTFORMISSUETYPE />
+                            <CSTFORMRECVTYPE />
+                            <BUYERSCSTNUMBER>
+                            </BUYERSCSTNUMBER>
+                            <FBTPAYMENTTYPE />
+                            <PERSISTEDVIEW>Invoice Voucher View</PERSISTEDVIEW>
+                            <PLACEOFSUPPLY>Maharashtra</PLACEOFSUPPLY>
+                            <CONSIGNEEGSTIN></CONSIGNEEGSTIN>
+                            <BASICSHIPPEDBY>
+                            </BASICSHIPPEDBY>
+                            <BASICBUYERNAME>M T L Masala (3251)</BASICBUYERNAME>
+                            <BASICSHIPDOCUMENTNO>
+                            </BASICSHIPDOCUMENTNO>
+                            <BASICORDERREF>
+                            </BASICORDERREF>
+                            <GSTREGISTRATIONTYPE>Regular</GSTREGISTRATIONTYPE>
+                            <BILLOFLADINGNO>
+                            </BILLOFLADINGNO>
+                            <BILLOFLADINGDATE>
+                            </BILLOFLADINGDATE>
+                            <BASICSHIPVESSELNO>
+                            </BASICSHIPVESSELNO>
+                            <BASICFINALDESTINATION>
+                            </BASICFINALDESTINATION>
+                            <BASICBUYERSSALESTAXNO>
+                            </BASICBUYERSSALESTAXNO>
+                            <BASICDUEDATEOFPYMT>
+                            </BASICDUEDATEOFPYMT>
+                            <BASICDATETIMEOFINVOICE>26 Mar 22</BASICDATETIMEOFINVOICE>
+                            <BASICDATETIMEOFREMOVAL>26 Mar 22</BASICDATETIMEOFREMOVAL>
+                            <VCHGSTCLASS />
+                            <CONSIGNEESTATENAME>
+                            </CONSIGNEESTATENAME>
+                            <COSTCENTRENAME>
+                            </COSTCENTRENAME>
+                            <DIFFACTUALQTY>No</DIFFACTUALQTY>
+                            <ISMSTFROMSYNC>No</ISMSTFROMSYNC>
+                            <ASORIGINAL>No</ASORIGINAL>
+                            <AUDITED>No</AUDITED>
+                            <FORJOBCOSTING>No</FORJOBCOSTING>
+                            <ISOPTIONAL>No</ISOPTIONAL>
+                            <EFFECTIVEDATE>20220326</EFFECTIVEDATE>
+                            <USEFOREXCISE>No</USEFOREXCISE>
+                            <ISFORJOBWORKIN>No</ISFORJOBWORKIN>
+                            <ALLOWCONSUMPTION>No</ALLOWCONSUMPTION>
+                            <USEFORINTEREST>No</USEFORINTEREST>
+                            <USEFORGAINLOSS>No</USEFORGAINLOSS>
+                            <USEFORGODOWNTRANSFER>No</USEFORGODOWNTRANSFER>
+                            <USEFORCOMPOUND>No</USEFORCOMPOUND>
+                            <USEFORSERVICETAX>No</USEFORSERVICETAX>
+                            <ISEXCISEVOUCHER>No</ISEXCISEVOUCHER>
+                            <EXCISETAXOVERRIDE>No</EXCISETAXOVERRIDE>
+                            <USEFORTAXUNITTRANSFER>No</USEFORTAXUNITTRANSFER>
+                            <EXCISEOPENING>No</EXCISEOPENING>
+                            <USEFORFINALPRODUCTION>No</USEFORFINALPRODUCTION>
+                            <ISTDSOVERRIDDEN>No</ISTDSOVERRIDDEN>
+                            <ISTCSOVERRIDDEN>No</ISTCSOVERRIDDEN>
+                            <ISTDSTCSCASHVCH>No</ISTDSTCSCASHVCH>
+                            <INCLUDEADVPYMTVCH>No</INCLUDEADVPYMTVCH>
+                            <ISSUBWORKSCONTRACT>No</ISSUBWORKSCONTRACT>
+                            <ISVATOVERRIDDEN>No</ISVATOVERRIDDEN>
+                            <IGNOREORIGVCHDATE>No</IGNOREORIGVCHDATE>
+                            <ISSERVICETAXOVERRIDDEN>No</ISSERVICETAXOVERRIDDEN>
+                            <ISISDVOUCHER>No</ISISDVOUCHER>
+                            <ISEXCISEOVERRIDDEN>No</ISEXCISEOVERRIDDEN>
+                            <ISEXCISESUPPLYVCH>No</ISEXCISESUPPLYVCH>
+                            <ISGSTOVERRIDDEN>No</ISGSTOVERRIDDEN>
+                            <GSTNOTEXPORTED>No</GSTNOTEXPORTED>
+                            <ISVATPRINCIPALACCOUNT>No</ISVATPRINCIPALACCOUNT>
+                            <ISSHIPPINGWITHINSTATE>No</ISSHIPPINGWITHINSTATE>
+                            <ISCANCELLED>No</ISCANCELLED>
+                            <HASCASHFLOW>No</HASCASHFLOW>
+                            <ISPOSTDATED>No</ISPOSTDATED>
+                            <USETRACKINGNUMBER>No</USETRACKINGNUMBER>
+                            <ISINVOICE>Yes</ISINVOICE>
+                            <MFGJOURNAL>No</MFGJOURNAL>
+                            <HASDISCOUNTS>No</HASDISCOUNTS>
+                            <ISCOSTCENTRE> No </ISCOSTCENTRE>
+                            <ASPAYSLIP>No</ASPAYSLIP>
+                            <ISSTXNONREALIZEDVCH>No</ISSTXNONREALIZEDVCH>
+                            <ISEXCISEMANUFACTURERON>No</ISEXCISEMANUFACTURERON>
+                            <ISBLANKCHEQUE>No</ISBLANKCHEQUE>
+                            <ISVOID>No</ISVOID>
+                            <ISONHOLD>No</ISONHOLD>
+                            <ORDERLINESTATUS>No</ORDERLINESTATUS>
+                            <VATISAGNSTCANCSALES>No</VATISAGNSTCANCSALES>
+                            <VATISPURCEXEMPTED>No</VATISPURCEXEMPTED>
+                            <ISVATRESTAXINVOICE>No</ISVATRESTAXINVOICE>
+                            <VATISASSESABLECALCVCH>Yes</VATISASSESABLECALCVCH>
+                            <ISVATDUTYPAID>Yes</ISVATDUTYPAID>
+                            <ISDELIVERYSAMEASCONSIGNEE>No</ISDELIVERYSAMEASCONSIGNEE>
+                            <ISDISPATCHSAMEASCONSIGNOR>No</ISDISPATCHSAMEASCONSIGNOR>
+                            <ISDELETED>No</ISDELETED>
+                            <CHANGEVCHMODE>No</CHANGEVCHMODE>
+                            <ALTERID />
+                            <MASTERID />
+                            <VOUCHERKEY />
+                            <EXCLUDEDTAXATIONS.LIST />
+                            <OLDAUDITENTRIES.LIST />
+                            <ACCOUNTAUDITENTRIES.LIST />
+                            <AUDITENTRIES.LIST />
+                            <DUTYHEADDETAILS.LIST />
+                            <SUPPLEMENTARYDUTYHEADDETAILS.LIST />
+                            <INVOICEDELNOTES.LIST>
+                              <BASICSHIPPINGDATE>
+                              </BASICSHIPPINGDATE>
+                              <BASICSHIPDELIVERYNOTE>
+                              </BASICSHIPDELIVERYNOTE>
+                            </INVOICEDELNOTES.LIST>
+                            <INVOICEINDENTLIST.LIST />
+                            <ATTENDANCEENTRIES.LIST />
+                            <ORIGINVOICEDETAILS.LIST />
+                            <INVOICEEXPORTLIST.LIST />
+                            <INVOICEORDERLIST.LIST>
+                              <BASICORDERDATE>
+                              </BASICORDERDATE>
+                              <BASICPURCHASEORDERNO>
+                              </BASICPURCHASEORDERNO>
+                            </INVOICEORDERLIST.LIST>
+                            <LEDGERENTRIES.LIST>
+                              <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                                <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                              </OLDAUDITENTRYIDS.LIST>
+                              <LEDGERNAME>M T L Masala(3251)</LEDGERNAME>
+                              <GSTCLASS />
+                              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+                              <LEDGERFROMITEM>No</LEDGERFROMITEM>
+                              <REMOVEZEROENTRIES>No</REMOVEZEROENTRIES>
+                              <ISPARTYLEDGER>Yes</ISPARTYLEDGER>
+                              <ISLASTDEEMEDPOSITIVE>Yes</ISLASTDEEMEDPOSITIVE>
+                              <AMOUNT> -1100.00</AMOUNT>
+                              <SERVICETAXDETAILS.LIST />
+                              <BANKALLOCATIONS.LIST />
+                              <BILLALLOCATIONS.LIST>
+                                <NAME>order no D2122-30757 </NAME>
+                                <BILLTYPE>New Ref</BILLTYPE>
+                                <TDSDEDUCTEEISSPECIALRATE>No</TDSDEDUCTEEISSPECIALRATE>
+                                <AMOUNT> -1100.00</AMOUNT>
+                                <INTERESTCOLLECTION.LIST />
+                                <STBILLCATEGORIES.LIST />
+                              </BILLALLOCATIONS.LIST>
+                              <INTERESTCOLLECTION.LIST />
+                              <OLDAUDITENTRIES.LIST />
+                              <ACCOUNTAUDITENTRIES.LIST />
+                              <AUDITENTRIES.LIST />
+                              <INPUTCRALLOCS.LIST />
+                              <DUTYHEADDETAILS.LIST />
+                              <EXCISEDUTYHEADDETAILS.LIST />
+                              <RATEDETAILS.LIST />
+                              <SUMMARYALLOCS.LIST />
+                              <STPYMTDETAILS.LIST />
+                              <EXCISEPAYMENTALLOCATIONS.LIST />
+                              <TAXBILLALLOCATIONS.LIST />
+                              <TAXOBJECTALLOCATIONS.LIST />
+                              <TDSEXPENSEALLOCATIONS.LIST />
+                              <VATSTATUTORYDETAILS.LIST />
+                              <COSTTRACKALLOCATIONS.LIST />
+                              <REFVOUCHERDETAILS.LIST />
+                              <INVOICEWISEDETAILS.LIST />
+                              <VATITCDETAILS.LIST />
+                              <ADVANCETAXDETAILS.LIST />
+                            </LEDGERENTRIES.LIST>
+                            <ALLINVENTORYENTRIES.LIST>
+                                      <BASICUSERDESCRIPTION.LIST TYPE="String">
+                                        <BASICUSERDESCRIPTION>
+                                        </BASICUSERDESCRIPTION>
+                                      </BASICUSERDESCRIPTION.LIST>
+                                      <STOCKITEMNAME>MAKHANA RAJBHOG - 250g</STOCKITEMNAME>
+                                      <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                                      <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+                                      <ISAUTONEGATE>No</ISAUTONEGATE>
+                                      <ISCUSTOMSCLEARANCE>No</ISCUSTOMSCLEARANCE>
+                                      <ISTRACKCOMPONENT>No</ISTRACKCOMPONENT>
+                                      <ISTRACKPRODUCTION>No</ISTRACKPRODUCTION>
+                                      <ISPRIMARYITEM>No</ISPRIMARYITEM>
+                                      <ISSCRAP>No</ISSCRAP>
+                                      <RATE>550/KG</RATE>
+                                      <DISCOUNT>
+                                      </DISCOUNT>
+                                      <AMOUNT>1100</AMOUNT>
+                                      <VATASSBLVALUE>1100</VATASSBLVALUE>
+                                      <ACTUALQTY>2</ACTUALQTY>
+                                      <BILLEDQTY>2</BILLEDQTY>
+                                      <BATCHALLOCATIONS.LIST>
+                                        <MFDON>
+                                        </MFDON>
+                                        <GODOWNNAME>Vasai - Godown</GODOWNNAME>
+                                        <BATCHNAME> Primary Batch</BATCHNAME>
+                                        <DESTINATIONGODOWNNAME>Vasai - Godown</DESTINATIONGODOWNNAME>
+                                        <INDENTNO />
+                                        <ORDERNO />
+                                        <TRACKINGNUMBER />
+                                        <DYNAMICCSTISCLEARED>No</DYNAMICCSTISCLEARED>
+                                        <AMOUNT>1100</AMOUNT>
+                                        <ACTUALQTY>2 KG</ACTUALQTY>
+                                        <BILLEDQTY>2 KG</BILLEDQTY>
+                                        <ADDITIONALDETAILS.LIST />
+                                        <VOUCHERCOMPONENTLIST.LIST />
+                                      </BATCHALLOCATIONS.LIST>
+                                      <ACCOUNTINGALLOCATIONS.LIST>
+                                        <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                                          <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                                        </OLDAUDITENTRYIDS.LIST>
+                                        <LEDGERNAME>Sale - Vasai</LEDGERNAME>
+                                        <GSTCLASS />
+                                        <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                                        <LEDGERFROMITEM>No</LEDGERFROMITEM>
+                                        <REMOVEZEROENTRIES>No</REMOVEZEROENTRIES>
+                                        <ISPARTYLEDGER>No</ISPARTYLEDGER>
+                                        <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+                                        <AMOUNT>1100</AMOUNT>
+                                        <SERVICETAXDETAILS.LIST />
+                                        <BANKALLOCATIONS.LIST />
+                                        <BILLALLOCATIONS.LIST />
+                                        <INTERESTCOLLECTION.LIST />
+                                        <OLDAUDITENTRIES.LIST />
+                                        <ACCOUNTAUDITENTRIES.LIST />
+                                        <AUDITENTRIES.LIST />
+                                        <INPUTCRALLOCS.LIST />
+                                        <DUTYHEADDETAILS.LIST />
+                                        <EXCISEDUTYHEADDETAILS.LIST />
+                                        <RATEDETAILS.LIST />
+                                        <SUMMARYALLOCS.LIST />
+                                        <STPYMTDETAILS.LIST />
+                                        <EXCISEPAYMENTALLOCATIONS.LIST />
+                                        <TAXBILLALLOCATIONS.LIST />
+                                        <TAXOBJECTALLOCATIONS.LIST />
+                                        <TDSEXPENSEALLOCATIONS.LIST />
+                                        <VATSTATUTORYDETAILS.LIST />
+                                        <COSTTRACKALLOCATIONS.LIST />
+                                        <REFVOUCHERDETAILS.LIST />
+                                        <INVOICEWISEDETAILS.LIST />
+                                        <VATITCDETAILS.LIST />
+                                        <ADVANCETAXDETAILS.LIST />
+                                      </ACCOUNTINGALLOCATIONS.LIST>
+                                      <DUTYHEADDETAILS.LIST />
+                                      <SUPPLEMENTARYDUTYHEADDETAILS.LIST />
+                                      <TAXOBJECTALLOCATIONS.LIST />
+                                      <REFVOUCHERDETAILS.LIST />
+                                      <EXCISEALLOCATIONS.LIST />
+                                      <EXPENSEALLOCATIONS.LIST />
+                                    </ALLINVENTORYENTRIES.LIST>
+                            <LEDGERENTRIES.LIST>
+                              <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                                <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                              </OLDAUDITENTRYIDS.LIST>
+                              <BASICRATEOFINVOICETAX.LIST TYPE="Number">
+                                <BASICRATEOFINVOICETAX>0</BASICRATEOFINVOICETAX>
+                              </BASICRATEOFINVOICETAX.LIST>
+                              <ROUNDTYPE />
+                              <LEDGERNAME>CGST</LEDGERNAME>
+                              <GSTCLASS />
+                              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                              <LEDGERFROMITEM>No</LEDGERFROMITEM>
+                              <REMOVEZEROENTRIES>No</REMOVEZEROENTRIES>
+                              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+                              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+                              <AMOUNT> 0</AMOUNT>
+                              <VATEXPAMOUNT>0</VATEXPAMOUNT>
+                              <SERVICETAXDETAILS.LIST />
+                              <BANKALLOCATIONS.LIST />
+                              <SERVICETAXDETAILS.LIST>
+                              </SERVICETAXDETAILS.LIST>
+                              <CATEGORYALLOCATIONS.LIST>
+                              </CATEGORYALLOCATIONS.LIST>
+                              <BANKALLOCATIONS.LIST>
+                              </BANKALLOCATIONS.LIST>
+                              <BILLALLOCATIONS.LIST>
+                              </BILLALLOCATIONS.LIST>
+                              <INTERESTCOLLECTION.LIST>
+                              </INTERESTCOLLECTION.LIST>
+                              <OLDAUDITENTRIES.LIST>
+                              </OLDAUDITENTRIES.LIST>
+                              <ACCOUNTAUDITENTRIES.LIST>
+                              </ACCOUNTAUDITENTRIES.LIST>
+                              <AUDITENTRIES.LIST>
+                              </AUDITENTRIES.LIST>
+                              <INPUTCRALLOCS.LIST>
+                              </INPUTCRALLOCS.LIST>
+                              <DUTYHEADDETAILS.LIST>
+                              </DUTYHEADDETAILS.LIST>
+                              <EXCISEDUTYHEADDETAILS.LIST>
+                              </EXCISEDUTYHEADDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Integrated Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Central Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>State Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Cess</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <SUMMARYALLOCS.LIST>
+                              </SUMMARYALLOCS.LIST>
+                              <STPYMTDETAILS.LIST>
+                              </STPYMTDETAILS.LIST>
+                              <EXCISEPAYMENTALLOCATIONS.LIST>
+                              </EXCISEPAYMENTALLOCATIONS.LIST>
+                              <TAXBILLALLOCATIONS.LIST>
+                              </TAXBILLALLOCATIONS.LIST>
+                              <TAXOBJECTALLOCATIONS.LIST>
+                              </TAXOBJECTALLOCATIONS.LIST>
+                              <TDSEXPENSEALLOCATIONS.LIST>
+                              </TDSEXPENSEALLOCATIONS.LIST>
+                              <VATSTATUTORYDETAILS.LIST>
+                              </VATSTATUTORYDETAILS.LIST>
+                              <COSTTRACKALLOCATIONS.LIST>
+                              </COSTTRACKALLOCATIONS.LIST>
+                              <REFVOUCHERDETAILS.LIST>
+                              </REFVOUCHERDETAILS.LIST>
+                              <INVOICEWISEDETAILS.LIST>
+                              </INVOICEWISEDETAILS.LIST>
+                              <VATITCDETAILS.LIST>
+                              </VATITCDETAILS.LIST>
+                              <ADVANCETAXDETAILS.LIST>
+                              </ADVANCETAXDETAILS.LIST>
+                            </LEDGERENTRIES.LIST>
+                            <LEDGERENTRIES.LIST>
+                              <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                                <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                              </OLDAUDITENTRYIDS.LIST>
+                              <BASICRATEOFINVOICETAX.LIST TYPE="Number">
+                                <BASICRATEOFINVOICETAX>0</BASICRATEOFINVOICETAX>
+                              </BASICRATEOFINVOICETAX.LIST>
+                              <ROUNDTYPE />
+                              <LEDGERNAME>SGST</LEDGERNAME>
+                              <GSTCLASS />
+                              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                              <LEDGERFROMITEM>No</LEDGERFROMITEM>
+                              <REMOVEZEROENTRIES>No</REMOVEZEROENTRIES>
+                              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+                              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+                              <AMOUNT>0</AMOUNT>
+                              <VATEXPAMOUNT>0</VATEXPAMOUNT>
+                              <SERVICETAXDETAILS.LIST />
+                              <BANKALLOCATIONS.LIST />
+                              <SERVICETAXDETAILS.LIST>
+                              </SERVICETAXDETAILS.LIST>
+                              <CATEGORYALLOCATIONS.LIST>
+                              </CATEGORYALLOCATIONS.LIST>
+                              <BANKALLOCATIONS.LIST>
+                              </BANKALLOCATIONS.LIST>
+                              <BILLALLOCATIONS.LIST>
+                              </BILLALLOCATIONS.LIST>
+                              <INTERESTCOLLECTION.LIST>
+                              </INTERESTCOLLECTION.LIST>
+                              <OLDAUDITENTRIES.LIST>
+                              </OLDAUDITENTRIES.LIST>
+                              <ACCOUNTAUDITENTRIES.LIST>
+                              </ACCOUNTAUDITENTRIES.LIST>
+                              <AUDITENTRIES.LIST>
+                              </AUDITENTRIES.LIST>
+                              <INPUTCRALLOCS.LIST>
+                              </INPUTCRALLOCS.LIST>
+                              <DUTYHEADDETAILS.LIST>
+                              </DUTYHEADDETAILS.LIST>
+                              <EXCISEDUTYHEADDETAILS.LIST>
+                              </EXCISEDUTYHEADDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Integrated Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Central Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>State Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Cess</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <SUMMARYALLOCS.LIST>
+                              </SUMMARYALLOCS.LIST>
+                              <STPYMTDETAILS.LIST>
+                              </STPYMTDETAILS.LIST>
+                              <EXCISEPAYMENTALLOCATIONS.LIST>
+                              </EXCISEPAYMENTALLOCATIONS.LIST>
+                              <TAXBILLALLOCATIONS.LIST>
+                              </TAXBILLALLOCATIONS.LIST>
+                              <TAXOBJECTALLOCATIONS.LIST>
+                              </TAXOBJECTALLOCATIONS.LIST>
+                              <TDSEXPENSEALLOCATIONS.LIST>
+                              </TDSEXPENSEALLOCATIONS.LIST>
+                              <VATSTATUTORYDETAILS.LIST>
+                              </VATSTATUTORYDETAILS.LIST>
+                              <COSTTRACKALLOCATIONS.LIST>
+                              </COSTTRACKALLOCATIONS.LIST>
+                              <REFVOUCHERDETAILS.LIST>
+                              </REFVOUCHERDETAILS.LIST>
+                              <INVOICEWISEDETAILS.LIST>
+                              </INVOICEWISEDETAILS.LIST>
+                              <VATITCDETAILS.LIST>
+                              </VATITCDETAILS.LIST>
+                              <ADVANCETAXDETAILS.LIST>
+                              </ADVANCETAXDETAILS.LIST>
+                            </LEDGERENTRIES.LIST>
+                            <PAYROLLMODEOFPAYMENT.LIST />
+                            <ATTDRECORDS.LIST />
+                            <TEMPGSTRATEDETAILS.LIST />
+                          </VOUCHER><VOUCHER REMOTEID="" VCHKEY="" VCHTYPE="Sales Dry Fruit" ACTION="Create" OBJVIEW="Invoice Voucher View">
+                            <ADDRESS.LIST TYPE="String"><ADDRESS>
+                               Shop -9,Shivalya Building</ADDRESS><ADDRESS>HajiBapu Road,
+ Malad(E),Mumbai - 400097
+ Phone : 9833345223</ADDRESS><ADDRESS>,*Malad(E)*</ADDRESS><ADDRESS>Mumbai - 400097</ADDRESS><ADDRESS>Tel: 9833345223</ADDRESS>
+                            </ADDRESS.LIST>
+                            <BASICBUYERADDRESS.LIST TYPE="String">
+                            <BASICBUYERADDRESS>
+                               Shop -9,Shivalya Building</BASICBUYERADDRESS><BASICBUYERADDRESS>HajiBapu Road,
+ Malad(E),Mumbai - 400097
+ Phone : 9833345223</BASICBUYERADDRESS><BASICBUYERADDRESS>,*Malad(E)*</BASICBUYERADDRESS><BASICBUYERADDRESS>Mumbai - 400097</BASICBUYERADDRESS><BASICBUYERADDRESS>Tel: 9833345223</BASICBUYERADDRESS>
+                              <BASICBUYERADDRESS></BASICBUYERADDRESS>
+                            </BASICBUYERADDRESS.LIST>
+                            <BASICORDERTERMS.LIST TYPE="String">
+                              <BASICORDERTERMS>
+                              </BASICORDERTERMS>
+                            </BASICORDERTERMS.LIST>
+                            <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                              <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                            </OLDAUDITENTRYIDS.LIST>
+                            <DATE>20220326</DATE>
+                            <GUID />
+                            <STATENAME>Maharashtra</STATENAME>
+                            <GSTREGISTRATIONTYPE>Unregistered</GSTREGISTRATIONTYPE>
+                            <NARRATION>
+                            </NARRATION>
+                            <COUNTRYOFRESIDENCE>India</COUNTRYOFRESIDENCE>
+                            <PARTYGSTIN></PARTYGSTIN>
+                            <TAXUNITNAME />
+                            <PARTYNAME>Kwality Grains Stores (905)</PARTYNAME>
+                            <VOUCHERTYPENAME>Dry Fruit Sales</VOUCHERTYPENAME>
+                            <REFERENCE>E/O/21-22/0031777</REFERENCE>
+                            <VOUCHERNUMBER>D2122-30758</VOUCHERNUMBER>
+                            <PARTYLEDGERNAME>Kwality Grains Stores (905)</PARTYLEDGERNAME>
+                            <BASICBASEPARTYNAME>Kwality Grains Stores (905)</BASICBASEPARTYNAME>
+                            <CSTFORMISSUETYPE />
+                            <CSTFORMRECVTYPE />
+                            <BUYERSCSTNUMBER>
+                            </BUYERSCSTNUMBER>
+                            <FBTPAYMENTTYPE />
+                            <PERSISTEDVIEW>Invoice Voucher View</PERSISTEDVIEW>
+                            <PLACEOFSUPPLY>Maharashtra</PLACEOFSUPPLY>
+                            <CONSIGNEEGSTIN></CONSIGNEEGSTIN>
+                            <BASICSHIPPEDBY>
+                            </BASICSHIPPEDBY>
+                            <BASICBUYERNAME>Kwality Grains Stores (905)</BASICBUYERNAME>
+                            <BASICSHIPDOCUMENTNO>
+                            </BASICSHIPDOCUMENTNO>
+                            <BASICORDERREF>
+                            </BASICORDERREF>
+                            <GSTREGISTRATIONTYPE>Regular</GSTREGISTRATIONTYPE>
+                            <BILLOFLADINGNO>
+                            </BILLOFLADINGNO>
+                            <BILLOFLADINGDATE>
+                            </BILLOFLADINGDATE>
+                            <BASICSHIPVESSELNO>
+                            </BASICSHIPVESSELNO>
+                            <BASICFINALDESTINATION>
+                            </BASICFINALDESTINATION>
+                            <BASICBUYERSSALESTAXNO>
+                            </BASICBUYERSSALESTAXNO>
+                            <BASICDUEDATEOFPYMT>
+                            </BASICDUEDATEOFPYMT>
+                            <BASICDATETIMEOFINVOICE>26 Mar 22</BASICDATETIMEOFINVOICE>
+                            <BASICDATETIMEOFREMOVAL>26 Mar 22</BASICDATETIMEOFREMOVAL>
+                            <VCHGSTCLASS />
+                            <CONSIGNEESTATENAME>
+                            </CONSIGNEESTATENAME>
+                            <COSTCENTRENAME>
+                            </COSTCENTRENAME>
+                            <DIFFACTUALQTY>No</DIFFACTUALQTY>
+                            <ISMSTFROMSYNC>No</ISMSTFROMSYNC>
+                            <ASORIGINAL>No</ASORIGINAL>
+                            <AUDITED>No</AUDITED>
+                            <FORJOBCOSTING>No</FORJOBCOSTING>
+                            <ISOPTIONAL>No</ISOPTIONAL>
+                            <EFFECTIVEDATE>20220326</EFFECTIVEDATE>
+                            <USEFOREXCISE>No</USEFOREXCISE>
+                            <ISFORJOBWORKIN>No</ISFORJOBWORKIN>
+                            <ALLOWCONSUMPTION>No</ALLOWCONSUMPTION>
+                            <USEFORINTEREST>No</USEFORINTEREST>
+                            <USEFORGAINLOSS>No</USEFORGAINLOSS>
+                            <USEFORGODOWNTRANSFER>No</USEFORGODOWNTRANSFER>
+                            <USEFORCOMPOUND>No</USEFORCOMPOUND>
+                            <USEFORSERVICETAX>No</USEFORSERVICETAX>
+                            <ISEXCISEVOUCHER>No</ISEXCISEVOUCHER>
+                            <EXCISETAXOVERRIDE>No</EXCISETAXOVERRIDE>
+                            <USEFORTAXUNITTRANSFER>No</USEFORTAXUNITTRANSFER>
+                            <EXCISEOPENING>No</EXCISEOPENING>
+                            <USEFORFINALPRODUCTION>No</USEFORFINALPRODUCTION>
+                            <ISTDSOVERRIDDEN>No</ISTDSOVERRIDDEN>
+                            <ISTCSOVERRIDDEN>No</ISTCSOVERRIDDEN>
+                            <ISTDSTCSCASHVCH>No</ISTDSTCSCASHVCH>
+                            <INCLUDEADVPYMTVCH>No</INCLUDEADVPYMTVCH>
+                            <ISSUBWORKSCONTRACT>No</ISSUBWORKSCONTRACT>
+                            <ISVATOVERRIDDEN>No</ISVATOVERRIDDEN>
+                            <IGNOREORIGVCHDATE>No</IGNOREORIGVCHDATE>
+                            <ISSERVICETAXOVERRIDDEN>No</ISSERVICETAXOVERRIDDEN>
+                            <ISISDVOUCHER>No</ISISDVOUCHER>
+                            <ISEXCISEOVERRIDDEN>No</ISEXCISEOVERRIDDEN>
+                            <ISEXCISESUPPLYVCH>No</ISEXCISESUPPLYVCH>
+                            <ISGSTOVERRIDDEN>No</ISGSTOVERRIDDEN>
+                            <GSTNOTEXPORTED>No</GSTNOTEXPORTED>
+                            <ISVATPRINCIPALACCOUNT>No</ISVATPRINCIPALACCOUNT>
+                            <ISSHIPPINGWITHINSTATE>No</ISSHIPPINGWITHINSTATE>
+                            <ISCANCELLED>No</ISCANCELLED>
+                            <HASCASHFLOW>No</HASCASHFLOW>
+                            <ISPOSTDATED>No</ISPOSTDATED>
+                            <USETRACKINGNUMBER>No</USETRACKINGNUMBER>
+                            <ISINVOICE>Yes</ISINVOICE>
+                            <MFGJOURNAL>No</MFGJOURNAL>
+                            <HASDISCOUNTS>No</HASDISCOUNTS>
+                            <ISCOSTCENTRE> No </ISCOSTCENTRE>
+                            <ASPAYSLIP>No</ASPAYSLIP>
+                            <ISSTXNONREALIZEDVCH>No</ISSTXNONREALIZEDVCH>
+                            <ISEXCISEMANUFACTURERON>No</ISEXCISEMANUFACTURERON>
+                            <ISBLANKCHEQUE>No</ISBLANKCHEQUE>
+                            <ISVOID>No</ISVOID>
+                            <ISONHOLD>No</ISONHOLD>
+                            <ORDERLINESTATUS>No</ORDERLINESTATUS>
+                            <VATISAGNSTCANCSALES>No</VATISAGNSTCANCSALES>
+                            <VATISPURCEXEMPTED>No</VATISPURCEXEMPTED>
+                            <ISVATRESTAXINVOICE>No</ISVATRESTAXINVOICE>
+                            <VATISASSESABLECALCVCH>Yes</VATISASSESABLECALCVCH>
+                            <ISVATDUTYPAID>Yes</ISVATDUTYPAID>
+                            <ISDELIVERYSAMEASCONSIGNEE>No</ISDELIVERYSAMEASCONSIGNEE>
+                            <ISDISPATCHSAMEASCONSIGNOR>No</ISDISPATCHSAMEASCONSIGNOR>
+                            <ISDELETED>No</ISDELETED>
+                            <CHANGEVCHMODE>No</CHANGEVCHMODE>
+                            <ALTERID />
+                            <MASTERID />
+                            <VOUCHERKEY />
+                            <EXCLUDEDTAXATIONS.LIST />
+                            <OLDAUDITENTRIES.LIST />
+                            <ACCOUNTAUDITENTRIES.LIST />
+                            <AUDITENTRIES.LIST />
+                            <DUTYHEADDETAILS.LIST />
+                            <SUPPLEMENTARYDUTYHEADDETAILS.LIST />
+                            <INVOICEDELNOTES.LIST>
+                              <BASICSHIPPINGDATE>
+                              </BASICSHIPPINGDATE>
+                              <BASICSHIPDELIVERYNOTE>
+                              </BASICSHIPDELIVERYNOTE>
+                            </INVOICEDELNOTES.LIST>
+                            <INVOICEINDENTLIST.LIST />
+                            <ATTENDANCEENTRIES.LIST />
+                            <ORIGINVOICEDETAILS.LIST />
+                            <INVOICEEXPORTLIST.LIST />
+                            <INVOICEORDERLIST.LIST>
+                              <BASICORDERDATE>
+                              </BASICORDERDATE>
+                              <BASICPURCHASEORDERNO>
+                              </BASICPURCHASEORDERNO>
+                            </INVOICEORDERLIST.LIST>
+                            <LEDGERENTRIES.LIST>
+                              <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                                <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                              </OLDAUDITENTRYIDS.LIST>
+                              <LEDGERNAME>Kwality Grains Stores(905)</LEDGERNAME>
+                              <GSTCLASS />
+                              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+                              <LEDGERFROMITEM>No</LEDGERFROMITEM>
+                              <REMOVEZEROENTRIES>No</REMOVEZEROENTRIES>
+                              <ISPARTYLEDGER>Yes</ISPARTYLEDGER>
+                              <ISLASTDEEMEDPOSITIVE>Yes</ISLASTDEEMEDPOSITIVE>
+                              <AMOUNT> -1100.00</AMOUNT>
+                              <SERVICETAXDETAILS.LIST />
+                              <BANKALLOCATIONS.LIST />
+                              <BILLALLOCATIONS.LIST>
+                                <NAME>order no D2122-30758 </NAME>
+                                <BILLTYPE>New Ref</BILLTYPE>
+                                <TDSDEDUCTEEISSPECIALRATE>No</TDSDEDUCTEEISSPECIALRATE>
+                                <AMOUNT> -1100.00</AMOUNT>
+                                <INTERESTCOLLECTION.LIST />
+                                <STBILLCATEGORIES.LIST />
+                              </BILLALLOCATIONS.LIST>
+                              <INTERESTCOLLECTION.LIST />
+                              <OLDAUDITENTRIES.LIST />
+                              <ACCOUNTAUDITENTRIES.LIST />
+                              <AUDITENTRIES.LIST />
+                              <INPUTCRALLOCS.LIST />
+                              <DUTYHEADDETAILS.LIST />
+                              <EXCISEDUTYHEADDETAILS.LIST />
+                              <RATEDETAILS.LIST />
+                              <SUMMARYALLOCS.LIST />
+                              <STPYMTDETAILS.LIST />
+                              <EXCISEPAYMENTALLOCATIONS.LIST />
+                              <TAXBILLALLOCATIONS.LIST />
+                              <TAXOBJECTALLOCATIONS.LIST />
+                              <TDSEXPENSEALLOCATIONS.LIST />
+                              <VATSTATUTORYDETAILS.LIST />
+                              <COSTTRACKALLOCATIONS.LIST />
+                              <REFVOUCHERDETAILS.LIST />
+                              <INVOICEWISEDETAILS.LIST />
+                              <VATITCDETAILS.LIST />
+                              <ADVANCETAXDETAILS.LIST />
+                            </LEDGERENTRIES.LIST>
+                            <ALLINVENTORYENTRIES.LIST>
+                                      <BASICUSERDESCRIPTION.LIST TYPE="String">
+                                        <BASICUSERDESCRIPTION>
+                                        </BASICUSERDESCRIPTION>
+                                      </BASICUSERDESCRIPTION.LIST>
+                                      <STOCKITEMNAME>MAKHANA RAJBHOG - 250g</STOCKITEMNAME>
+                                      <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                                      <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+                                      <ISAUTONEGATE>No</ISAUTONEGATE>
+                                      <ISCUSTOMSCLEARANCE>No</ISCUSTOMSCLEARANCE>
+                                      <ISTRACKCOMPONENT>No</ISTRACKCOMPONENT>
+                                      <ISTRACKPRODUCTION>No</ISTRACKPRODUCTION>
+                                      <ISPRIMARYITEM>No</ISPRIMARYITEM>
+                                      <ISSCRAP>No</ISSCRAP>
+                                      <RATE>550/KG</RATE>
+                                      <DISCOUNT>
+                                      </DISCOUNT>
+                                      <AMOUNT>1100</AMOUNT>
+                                      <VATASSBLVALUE>1100</VATASSBLVALUE>
+                                      <ACTUALQTY>2</ACTUALQTY>
+                                      <BILLEDQTY>2</BILLEDQTY>
+                                      <BATCHALLOCATIONS.LIST>
+                                        <MFDON>
+                                        </MFDON>
+                                        <GODOWNNAME>Vasai - Godown</GODOWNNAME>
+                                        <BATCHNAME> Primary Batch</BATCHNAME>
+                                        <DESTINATIONGODOWNNAME>Vasai - Godown</DESTINATIONGODOWNNAME>
+                                        <INDENTNO />
+                                        <ORDERNO />
+                                        <TRACKINGNUMBER />
+                                        <DYNAMICCSTISCLEARED>No</DYNAMICCSTISCLEARED>
+                                        <AMOUNT>1100</AMOUNT>
+                                        <ACTUALQTY>2 KG</ACTUALQTY>
+                                        <BILLEDQTY>2 KG</BILLEDQTY>
+                                        <ADDITIONALDETAILS.LIST />
+                                        <VOUCHERCOMPONENTLIST.LIST />
+                                      </BATCHALLOCATIONS.LIST>
+                                      <ACCOUNTINGALLOCATIONS.LIST>
+                                        <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                                          <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                                        </OLDAUDITENTRYIDS.LIST>
+                                        <LEDGERNAME>Sale - Vasai</LEDGERNAME>
+                                        <GSTCLASS />
+                                        <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                                        <LEDGERFROMITEM>No</LEDGERFROMITEM>
+                                        <REMOVEZEROENTRIES>No</REMOVEZEROENTRIES>
+                                        <ISPARTYLEDGER>No</ISPARTYLEDGER>
+                                        <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+                                        <AMOUNT>1100</AMOUNT>
+                                        <SERVICETAXDETAILS.LIST />
+                                        <BANKALLOCATIONS.LIST />
+                                        <BILLALLOCATIONS.LIST />
+                                        <INTERESTCOLLECTION.LIST />
+                                        <OLDAUDITENTRIES.LIST />
+                                        <ACCOUNTAUDITENTRIES.LIST />
+                                        <AUDITENTRIES.LIST />
+                                        <INPUTCRALLOCS.LIST />
+                                        <DUTYHEADDETAILS.LIST />
+                                        <EXCISEDUTYHEADDETAILS.LIST />
+                                        <RATEDETAILS.LIST />
+                                        <SUMMARYALLOCS.LIST />
+                                        <STPYMTDETAILS.LIST />
+                                        <EXCISEPAYMENTALLOCATIONS.LIST />
+                                        <TAXBILLALLOCATIONS.LIST />
+                                        <TAXOBJECTALLOCATIONS.LIST />
+                                        <TDSEXPENSEALLOCATIONS.LIST />
+                                        <VATSTATUTORYDETAILS.LIST />
+                                        <COSTTRACKALLOCATIONS.LIST />
+                                        <REFVOUCHERDETAILS.LIST />
+                                        <INVOICEWISEDETAILS.LIST />
+                                        <VATITCDETAILS.LIST />
+                                        <ADVANCETAXDETAILS.LIST />
+                                      </ACCOUNTINGALLOCATIONS.LIST>
+                                      <DUTYHEADDETAILS.LIST />
+                                      <SUPPLEMENTARYDUTYHEADDETAILS.LIST />
+                                      <TAXOBJECTALLOCATIONS.LIST />
+                                      <REFVOUCHERDETAILS.LIST />
+                                      <EXCISEALLOCATIONS.LIST />
+                                      <EXPENSEALLOCATIONS.LIST />
+                                    </ALLINVENTORYENTRIES.LIST>
+                            <LEDGERENTRIES.LIST>
+                              <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                                <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                              </OLDAUDITENTRYIDS.LIST>
+                              <BASICRATEOFINVOICETAX.LIST TYPE="Number">
+                                <BASICRATEOFINVOICETAX>0</BASICRATEOFINVOICETAX>
+                              </BASICRATEOFINVOICETAX.LIST>
+                              <ROUNDTYPE />
+                              <LEDGERNAME>CGST</LEDGERNAME>
+                              <GSTCLASS />
+                              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                              <LEDGERFROMITEM>No</LEDGERFROMITEM>
+                              <REMOVEZEROENTRIES>No</REMOVEZEROENTRIES>
+                              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+                              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+                              <AMOUNT> 0</AMOUNT>
+                              <VATEXPAMOUNT>0</VATEXPAMOUNT>
+                              <SERVICETAXDETAILS.LIST />
+                              <BANKALLOCATIONS.LIST />
+                              <SERVICETAXDETAILS.LIST>
+                              </SERVICETAXDETAILS.LIST>
+                              <CATEGORYALLOCATIONS.LIST>
+                              </CATEGORYALLOCATIONS.LIST>
+                              <BANKALLOCATIONS.LIST>
+                              </BANKALLOCATIONS.LIST>
+                              <BILLALLOCATIONS.LIST>
+                              </BILLALLOCATIONS.LIST>
+                              <INTERESTCOLLECTION.LIST>
+                              </INTERESTCOLLECTION.LIST>
+                              <OLDAUDITENTRIES.LIST>
+                              </OLDAUDITENTRIES.LIST>
+                              <ACCOUNTAUDITENTRIES.LIST>
+                              </ACCOUNTAUDITENTRIES.LIST>
+                              <AUDITENTRIES.LIST>
+                              </AUDITENTRIES.LIST>
+                              <INPUTCRALLOCS.LIST>
+                              </INPUTCRALLOCS.LIST>
+                              <DUTYHEADDETAILS.LIST>
+                              </DUTYHEADDETAILS.LIST>
+                              <EXCISEDUTYHEADDETAILS.LIST>
+                              </EXCISEDUTYHEADDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Integrated Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Central Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>State Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Cess</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <SUMMARYALLOCS.LIST>
+                              </SUMMARYALLOCS.LIST>
+                              <STPYMTDETAILS.LIST>
+                              </STPYMTDETAILS.LIST>
+                              <EXCISEPAYMENTALLOCATIONS.LIST>
+                              </EXCISEPAYMENTALLOCATIONS.LIST>
+                              <TAXBILLALLOCATIONS.LIST>
+                              </TAXBILLALLOCATIONS.LIST>
+                              <TAXOBJECTALLOCATIONS.LIST>
+                              </TAXOBJECTALLOCATIONS.LIST>
+                              <TDSEXPENSEALLOCATIONS.LIST>
+                              </TDSEXPENSEALLOCATIONS.LIST>
+                              <VATSTATUTORYDETAILS.LIST>
+                              </VATSTATUTORYDETAILS.LIST>
+                              <COSTTRACKALLOCATIONS.LIST>
+                              </COSTTRACKALLOCATIONS.LIST>
+                              <REFVOUCHERDETAILS.LIST>
+                              </REFVOUCHERDETAILS.LIST>
+                              <INVOICEWISEDETAILS.LIST>
+                              </INVOICEWISEDETAILS.LIST>
+                              <VATITCDETAILS.LIST>
+                              </VATITCDETAILS.LIST>
+                              <ADVANCETAXDETAILS.LIST>
+                              </ADVANCETAXDETAILS.LIST>
+                            </LEDGERENTRIES.LIST>
+                            <LEDGERENTRIES.LIST>
+                              <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                                <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                              </OLDAUDITENTRYIDS.LIST>
+                              <BASICRATEOFINVOICETAX.LIST TYPE="Number">
+                                <BASICRATEOFINVOICETAX>0</BASICRATEOFINVOICETAX>
+                              </BASICRATEOFINVOICETAX.LIST>
+                              <ROUNDTYPE />
+                              <LEDGERNAME>SGST</LEDGERNAME>
+                              <GSTCLASS />
+                              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                              <LEDGERFROMITEM>No</LEDGERFROMITEM>
+                              <REMOVEZEROENTRIES>No</REMOVEZEROENTRIES>
+                              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+                              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+                              <AMOUNT>0</AMOUNT>
+                              <VATEXPAMOUNT>0</VATEXPAMOUNT>
+                              <SERVICETAXDETAILS.LIST />
+                              <BANKALLOCATIONS.LIST />
+                              <SERVICETAXDETAILS.LIST>
+                              </SERVICETAXDETAILS.LIST>
+                              <CATEGORYALLOCATIONS.LIST>
+                              </CATEGORYALLOCATIONS.LIST>
+                              <BANKALLOCATIONS.LIST>
+                              </BANKALLOCATIONS.LIST>
+                              <BILLALLOCATIONS.LIST>
+                              </BILLALLOCATIONS.LIST>
+                              <INTERESTCOLLECTION.LIST>
+                              </INTERESTCOLLECTION.LIST>
+                              <OLDAUDITENTRIES.LIST>
+                              </OLDAUDITENTRIES.LIST>
+                              <ACCOUNTAUDITENTRIES.LIST>
+                              </ACCOUNTAUDITENTRIES.LIST>
+                              <AUDITENTRIES.LIST>
+                              </AUDITENTRIES.LIST>
+                              <INPUTCRALLOCS.LIST>
+                              </INPUTCRALLOCS.LIST>
+                              <DUTYHEADDETAILS.LIST>
+                              </DUTYHEADDETAILS.LIST>
+                              <EXCISEDUTYHEADDETAILS.LIST>
+                              </EXCISEDUTYHEADDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Integrated Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Central Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>State Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Cess</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <SUMMARYALLOCS.LIST>
+                              </SUMMARYALLOCS.LIST>
+                              <STPYMTDETAILS.LIST>
+                              </STPYMTDETAILS.LIST>
+                              <EXCISEPAYMENTALLOCATIONS.LIST>
+                              </EXCISEPAYMENTALLOCATIONS.LIST>
+                              <TAXBILLALLOCATIONS.LIST>
+                              </TAXBILLALLOCATIONS.LIST>
+                              <TAXOBJECTALLOCATIONS.LIST>
+                              </TAXOBJECTALLOCATIONS.LIST>
+                              <TDSEXPENSEALLOCATIONS.LIST>
+                              </TDSEXPENSEALLOCATIONS.LIST>
+                              <VATSTATUTORYDETAILS.LIST>
+                              </VATSTATUTORYDETAILS.LIST>
+                              <COSTTRACKALLOCATIONS.LIST>
+                              </COSTTRACKALLOCATIONS.LIST>
+                              <REFVOUCHERDETAILS.LIST>
+                              </REFVOUCHERDETAILS.LIST>
+                              <INVOICEWISEDETAILS.LIST>
+                              </INVOICEWISEDETAILS.LIST>
+                              <VATITCDETAILS.LIST>
+                              </VATITCDETAILS.LIST>
+                              <ADVANCETAXDETAILS.LIST>
+                              </ADVANCETAXDETAILS.LIST>
+                            </LEDGERENTRIES.LIST>
+                            <PAYROLLMODEOFPAYMENT.LIST />
+                            <ATTDRECORDS.LIST />
+                            <TEMPGSTRATEDETAILS.LIST />
+                          </VOUCHER><VOUCHER REMOTEID="" VCHKEY="" VCHTYPE="Sales Dry Fruit" ACTION="Create" OBJVIEW="Invoice Voucher View">
+                            <ADDRESS.LIST TYPE="String"><ADDRESS>
+                              Tulsi tower goddev naka </ADDRESS><ADDRESS>bhyender est,*Bhayandar(E)*</ADDRESS><ADDRESS>Mumbai - 401105</ADDRESS><ADDRESS>Tel: 9029275079</ADDRESS>
+                            </ADDRESS.LIST>
+                            <BASICBUYERADDRESS.LIST TYPE="String">
+                            <BASICBUYERADDRESS>
+                              Tulsi tower goddev naka </BASICBUYERADDRESS><BASICBUYERADDRESS>bhyender est,*Bhayandar(E)*</BASICBUYERADDRESS><BASICBUYERADDRESS>Mumbai - 401105</BASICBUYERADDRESS><BASICBUYERADDRESS>Tel: 9029275079</BASICBUYERADDRESS>
+                              <BASICBUYERADDRESS></BASICBUYERADDRESS>
+                            </BASICBUYERADDRESS.LIST>
+                            <BASICORDERTERMS.LIST TYPE="String">
+                              <BASICORDERTERMS>
+                              </BASICORDERTERMS>
+                            </BASICORDERTERMS.LIST>
+                            <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                              <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                            </OLDAUDITENTRYIDS.LIST>
+                            <DATE>20220326</DATE>
+                            <GUID />
+                            <STATENAME>Maharashtra</STATENAME>
+                            <GSTREGISTRATIONTYPE>Unregistered</GSTREGISTRATIONTYPE>
+                            <NARRATION>
+                            </NARRATION>
+                            <COUNTRYOFRESIDENCE>India</COUNTRYOFRESIDENCE>
+                            <PARTYGSTIN></PARTYGSTIN>
+                            <TAXUNITNAME />
+                            <PARTYNAME>Maheboob Manjiyani (2603)</PARTYNAME>
+                            <VOUCHERTYPENAME>Dry Fruit Sales</VOUCHERTYPENAME>
+                            <REFERENCE>E/O/21-22/0031778</REFERENCE>
+                            <VOUCHERNUMBER>D2122-30759</VOUCHERNUMBER>
+                            <PARTYLEDGERNAME>Maheboob Manjiyani (2603)</PARTYLEDGERNAME>
+                            <BASICBASEPARTYNAME>Maheboob Manjiyani (2603)</BASICBASEPARTYNAME>
+                            <CSTFORMISSUETYPE />
+                            <CSTFORMRECVTYPE />
+                            <BUYERSCSTNUMBER>
+                            </BUYERSCSTNUMBER>
+                            <FBTPAYMENTTYPE />
+                            <PERSISTEDVIEW>Invoice Voucher View</PERSISTEDVIEW>
+                            <PLACEOFSUPPLY>Maharashtra</PLACEOFSUPPLY>
+                            <CONSIGNEEGSTIN></CONSIGNEEGSTIN>
+                            <BASICSHIPPEDBY>
+                            </BASICSHIPPEDBY>
+                            <BASICBUYERNAME>Maheboob Manjiyani (2603)</BASICBUYERNAME>
+                            <BASICSHIPDOCUMENTNO>
+                            </BASICSHIPDOCUMENTNO>
+                            <BASICORDERREF>
+                            </BASICORDERREF>
+                            <GSTREGISTRATIONTYPE>Regular</GSTREGISTRATIONTYPE>
+                            <BILLOFLADINGNO>
+                            </BILLOFLADINGNO>
+                            <BILLOFLADINGDATE>
+                            </BILLOFLADINGDATE>
+                            <BASICSHIPVESSELNO>
+                            </BASICSHIPVESSELNO>
+                            <BASICFINALDESTINATION>
+                            </BASICFINALDESTINATION>
+                            <BASICBUYERSSALESTAXNO>
+                            </BASICBUYERSSALESTAXNO>
+                            <BASICDUEDATEOFPYMT>
+                            </BASICDUEDATEOFPYMT>
+                            <BASICDATETIMEOFINVOICE>26 Mar 22</BASICDATETIMEOFINVOICE>
+                            <BASICDATETIMEOFREMOVAL>26 Mar 22</BASICDATETIMEOFREMOVAL>
+                            <VCHGSTCLASS />
+                            <CONSIGNEESTATENAME>
+                            </CONSIGNEESTATENAME>
+                            <COSTCENTRENAME>
+                            </COSTCENTRENAME>
+                            <DIFFACTUALQTY>No</DIFFACTUALQTY>
+                            <ISMSTFROMSYNC>No</ISMSTFROMSYNC>
+                            <ASORIGINAL>No</ASORIGINAL>
+                            <AUDITED>No</AUDITED>
+                            <FORJOBCOSTING>No</FORJOBCOSTING>
+                            <ISOPTIONAL>No</ISOPTIONAL>
+                            <EFFECTIVEDATE>20220326</EFFECTIVEDATE>
+                            <USEFOREXCISE>No</USEFOREXCISE>
+                            <ISFORJOBWORKIN>No</ISFORJOBWORKIN>
+                            <ALLOWCONSUMPTION>No</ALLOWCONSUMPTION>
+                            <USEFORINTEREST>No</USEFORINTEREST>
+                            <USEFORGAINLOSS>No</USEFORGAINLOSS>
+                            <USEFORGODOWNTRANSFER>No</USEFORGODOWNTRANSFER>
+                            <USEFORCOMPOUND>No</USEFORCOMPOUND>
+                            <USEFORSERVICETAX>No</USEFORSERVICETAX>
+                            <ISEXCISEVOUCHER>No</ISEXCISEVOUCHER>
+                            <EXCISETAXOVERRIDE>No</EXCISETAXOVERRIDE>
+                            <USEFORTAXUNITTRANSFER>No</USEFORTAXUNITTRANSFER>
+                            <EXCISEOPENING>No</EXCISEOPENING>
+                            <USEFORFINALPRODUCTION>No</USEFORFINALPRODUCTION>
+                            <ISTDSOVERRIDDEN>No</ISTDSOVERRIDDEN>
+                            <ISTCSOVERRIDDEN>No</ISTCSOVERRIDDEN>
+                            <ISTDSTCSCASHVCH>No</ISTDSTCSCASHVCH>
+                            <INCLUDEADVPYMTVCH>No</INCLUDEADVPYMTVCH>
+                            <ISSUBWORKSCONTRACT>No</ISSUBWORKSCONTRACT>
+                            <ISVATOVERRIDDEN>No</ISVATOVERRIDDEN>
+                            <IGNOREORIGVCHDATE>No</IGNOREORIGVCHDATE>
+                            <ISSERVICETAXOVERRIDDEN>No</ISSERVICETAXOVERRIDDEN>
+                            <ISISDVOUCHER>No</ISISDVOUCHER>
+                            <ISEXCISEOVERRIDDEN>No</ISEXCISEOVERRIDDEN>
+                            <ISEXCISESUPPLYVCH>No</ISEXCISESUPPLYVCH>
+                            <ISGSTOVERRIDDEN>No</ISGSTOVERRIDDEN>
+                            <GSTNOTEXPORTED>No</GSTNOTEXPORTED>
+                            <ISVATPRINCIPALACCOUNT>No</ISVATPRINCIPALACCOUNT>
+                            <ISSHIPPINGWITHINSTATE>No</ISSHIPPINGWITHINSTATE>
+                            <ISCANCELLED>No</ISCANCELLED>
+                            <HASCASHFLOW>No</HASCASHFLOW>
+                            <ISPOSTDATED>No</ISPOSTDATED>
+                            <USETRACKINGNUMBER>No</USETRACKINGNUMBER>
+                            <ISINVOICE>Yes</ISINVOICE>
+                            <MFGJOURNAL>No</MFGJOURNAL>
+                            <HASDISCOUNTS>No</HASDISCOUNTS>
+                            <ISCOSTCENTRE> No </ISCOSTCENTRE>
+                            <ASPAYSLIP>No</ASPAYSLIP>
+                            <ISSTXNONREALIZEDVCH>No</ISSTXNONREALIZEDVCH>
+                            <ISEXCISEMANUFACTURERON>No</ISEXCISEMANUFACTURERON>
+                            <ISBLANKCHEQUE>No</ISBLANKCHEQUE>
+                            <ISVOID>No</ISVOID>
+                            <ISONHOLD>No</ISONHOLD>
+                            <ORDERLINESTATUS>No</ORDERLINESTATUS>
+                            <VATISAGNSTCANCSALES>No</VATISAGNSTCANCSALES>
+                            <VATISPURCEXEMPTED>No</VATISPURCEXEMPTED>
+                            <ISVATRESTAXINVOICE>No</ISVATRESTAXINVOICE>
+                            <VATISASSESABLECALCVCH>Yes</VATISASSESABLECALCVCH>
+                            <ISVATDUTYPAID>Yes</ISVATDUTYPAID>
+                            <ISDELIVERYSAMEASCONSIGNEE>No</ISDELIVERYSAMEASCONSIGNEE>
+                            <ISDISPATCHSAMEASCONSIGNOR>No</ISDISPATCHSAMEASCONSIGNOR>
+                            <ISDELETED>No</ISDELETED>
+                            <CHANGEVCHMODE>No</CHANGEVCHMODE>
+                            <ALTERID />
+                            <MASTERID />
+                            <VOUCHERKEY />
+                            <EXCLUDEDTAXATIONS.LIST />
+                            <OLDAUDITENTRIES.LIST />
+                            <ACCOUNTAUDITENTRIES.LIST />
+                            <AUDITENTRIES.LIST />
+                            <DUTYHEADDETAILS.LIST />
+                            <SUPPLEMENTARYDUTYHEADDETAILS.LIST />
+                            <INVOICEDELNOTES.LIST>
+                              <BASICSHIPPINGDATE>
+                              </BASICSHIPPINGDATE>
+                              <BASICSHIPDELIVERYNOTE>
+                              </BASICSHIPDELIVERYNOTE>
+                            </INVOICEDELNOTES.LIST>
+                            <INVOICEINDENTLIST.LIST />
+                            <ATTENDANCEENTRIES.LIST />
+                            <ORIGINVOICEDETAILS.LIST />
+                            <INVOICEEXPORTLIST.LIST />
+                            <INVOICEORDERLIST.LIST>
+                              <BASICORDERDATE>
+                              </BASICORDERDATE>
+                              <BASICPURCHASEORDERNO>
+                              </BASICPURCHASEORDERNO>
+                            </INVOICEORDERLIST.LIST>
+                            <LEDGERENTRIES.LIST>
+                              <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                                <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                              </OLDAUDITENTRYIDS.LIST>
+                              <LEDGERNAME>Maheboob Manjiyani(2603)</LEDGERNAME>
+                              <GSTCLASS />
+                              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+                              <LEDGERFROMITEM>No</LEDGERFROMITEM>
+                              <REMOVEZEROENTRIES>No</REMOVEZEROENTRIES>
+                              <ISPARTYLEDGER>Yes</ISPARTYLEDGER>
+                              <ISLASTDEEMEDPOSITIVE>Yes</ISLASTDEEMEDPOSITIVE>
+                              <AMOUNT> -1105.00</AMOUNT>
+                              <SERVICETAXDETAILS.LIST />
+                              <BANKALLOCATIONS.LIST />
+                              <BILLALLOCATIONS.LIST>
+                                <NAME>order no D2122-30759 </NAME>
+                                <BILLTYPE>New Ref</BILLTYPE>
+                                <TDSDEDUCTEEISSPECIALRATE>No</TDSDEDUCTEEISSPECIALRATE>
+                                <AMOUNT> -1105.00</AMOUNT>
+                                <INTERESTCOLLECTION.LIST />
+                                <STBILLCATEGORIES.LIST />
+                              </BILLALLOCATIONS.LIST>
+                              <INTERESTCOLLECTION.LIST />
+                              <OLDAUDITENTRIES.LIST />
+                              <ACCOUNTAUDITENTRIES.LIST />
+                              <AUDITENTRIES.LIST />
+                              <INPUTCRALLOCS.LIST />
+                              <DUTYHEADDETAILS.LIST />
+                              <EXCISEDUTYHEADDETAILS.LIST />
+                              <RATEDETAILS.LIST />
+                              <SUMMARYALLOCS.LIST />
+                              <STPYMTDETAILS.LIST />
+                              <EXCISEPAYMENTALLOCATIONS.LIST />
+                              <TAXBILLALLOCATIONS.LIST />
+                              <TAXOBJECTALLOCATIONS.LIST />
+                              <TDSEXPENSEALLOCATIONS.LIST />
+                              <VATSTATUTORYDETAILS.LIST />
+                              <COSTTRACKALLOCATIONS.LIST />
+                              <REFVOUCHERDETAILS.LIST />
+                              <INVOICEWISEDETAILS.LIST />
+                              <VATITCDETAILS.LIST />
+                              <ADVANCETAXDETAILS.LIST />
+                            </LEDGERENTRIES.LIST>
+                            <ALLINVENTORYENTRIES.LIST>
+                                      <BASICUSERDESCRIPTION.LIST TYPE="String">
+                                        <BASICUSERDESCRIPTION>
+                                        </BASICUSERDESCRIPTION>
+                                      </BASICUSERDESCRIPTION.LIST>
+                                      <STOCKITEMNAME>KISHMISH - REGULAR</STOCKITEMNAME>
+                                      <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                                      <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+                                      <ISAUTONEGATE>No</ISAUTONEGATE>
+                                      <ISCUSTOMSCLEARANCE>No</ISCUSTOMSCLEARANCE>
+                                      <ISTRACKCOMPONENT>No</ISTRACKCOMPONENT>
+                                      <ISTRACKPRODUCTION>No</ISTRACKPRODUCTION>
+                                      <ISPRIMARYITEM>No</ISPRIMARYITEM>
+                                      <ISSCRAP>No</ISSCRAP>
+                                      <RATE>210.48/KG</RATE>
+                                      <DISCOUNT>
+                                      </DISCOUNT>
+                                      <AMOUNT>1052.4</AMOUNT>
+                                      <VATASSBLVALUE>1052.4</VATASSBLVALUE>
+                                      <ACTUALQTY>5</ACTUALQTY>
+                                      <BILLEDQTY>5</BILLEDQTY>
+                                      <BATCHALLOCATIONS.LIST>
+                                        <MFDON>
+                                        </MFDON>
+                                        <GODOWNNAME>Vasai - Godown</GODOWNNAME>
+                                        <BATCHNAME> Primary Batch</BATCHNAME>
+                                        <DESTINATIONGODOWNNAME>Vasai - Godown</DESTINATIONGODOWNNAME>
+                                        <INDENTNO />
+                                        <ORDERNO />
+                                        <TRACKINGNUMBER />
+                                        <DYNAMICCSTISCLEARED>No</DYNAMICCSTISCLEARED>
+                                        <AMOUNT>1052.4</AMOUNT>
+                                        <ACTUALQTY>5 KG</ACTUALQTY>
+                                        <BILLEDQTY>5 KG</BILLEDQTY>
+                                        <ADDITIONALDETAILS.LIST />
+                                        <VOUCHERCOMPONENTLIST.LIST />
+                                      </BATCHALLOCATIONS.LIST>
+                                      <ACCOUNTINGALLOCATIONS.LIST>
+                                        <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                                          <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                                        </OLDAUDITENTRYIDS.LIST>
+                                        <LEDGERNAME>Sale - Vasai</LEDGERNAME>
+                                        <GSTCLASS />
+                                        <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                                        <LEDGERFROMITEM>No</LEDGERFROMITEM>
+                                        <REMOVEZEROENTRIES>No</REMOVEZEROENTRIES>
+                                        <ISPARTYLEDGER>No</ISPARTYLEDGER>
+                                        <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+                                        <AMOUNT>1052.4</AMOUNT>
+                                        <SERVICETAXDETAILS.LIST />
+                                        <BANKALLOCATIONS.LIST />
+                                        <BILLALLOCATIONS.LIST />
+                                        <INTERESTCOLLECTION.LIST />
+                                        <OLDAUDITENTRIES.LIST />
+                                        <ACCOUNTAUDITENTRIES.LIST />
+                                        <AUDITENTRIES.LIST />
+                                        <INPUTCRALLOCS.LIST />
+                                        <DUTYHEADDETAILS.LIST />
+                                        <EXCISEDUTYHEADDETAILS.LIST />
+                                        <RATEDETAILS.LIST />
+                                        <SUMMARYALLOCS.LIST />
+                                        <STPYMTDETAILS.LIST />
+                                        <EXCISEPAYMENTALLOCATIONS.LIST />
+                                        <TAXBILLALLOCATIONS.LIST />
+                                        <TAXOBJECTALLOCATIONS.LIST />
+                                        <TDSEXPENSEALLOCATIONS.LIST />
+                                        <VATSTATUTORYDETAILS.LIST />
+                                        <COSTTRACKALLOCATIONS.LIST />
+                                        <REFVOUCHERDETAILS.LIST />
+                                        <INVOICEWISEDETAILS.LIST />
+                                        <VATITCDETAILS.LIST />
+                                        <ADVANCETAXDETAILS.LIST />
+                                      </ACCOUNTINGALLOCATIONS.LIST>
+                                      <DUTYHEADDETAILS.LIST />
+                                      <SUPPLEMENTARYDUTYHEADDETAILS.LIST />
+                                      <TAXOBJECTALLOCATIONS.LIST />
+                                      <REFVOUCHERDETAILS.LIST />
+                                      <EXCISEALLOCATIONS.LIST />
+                                      <EXPENSEALLOCATIONS.LIST />
+                                    </ALLINVENTORYENTRIES.LIST>
+                            <LEDGERENTRIES.LIST>
+                              <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                                <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                              </OLDAUDITENTRYIDS.LIST>
+                              <BASICRATEOFINVOICETAX.LIST TYPE="Number">
+                                <BASICRATEOFINVOICETAX>0</BASICRATEOFINVOICETAX>
+                              </BASICRATEOFINVOICETAX.LIST>
+                              <ROUNDTYPE />
+                              <LEDGERNAME>CGST</LEDGERNAME>
+                              <GSTCLASS />
+                              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                              <LEDGERFROMITEM>No</LEDGERFROMITEM>
+                              <REMOVEZEROENTRIES>No</REMOVEZEROENTRIES>
+                              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+                              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+                              <AMOUNT> 26.31</AMOUNT>
+                              <VATEXPAMOUNT>26.31</VATEXPAMOUNT>
+                              <SERVICETAXDETAILS.LIST />
+                              <BANKALLOCATIONS.LIST />
+                              <SERVICETAXDETAILS.LIST>
+                              </SERVICETAXDETAILS.LIST>
+                              <CATEGORYALLOCATIONS.LIST>
+                              </CATEGORYALLOCATIONS.LIST>
+                              <BANKALLOCATIONS.LIST>
+                              </BANKALLOCATIONS.LIST>
+                              <BILLALLOCATIONS.LIST>
+                              </BILLALLOCATIONS.LIST>
+                              <INTERESTCOLLECTION.LIST>
+                              </INTERESTCOLLECTION.LIST>
+                              <OLDAUDITENTRIES.LIST>
+                              </OLDAUDITENTRIES.LIST>
+                              <ACCOUNTAUDITENTRIES.LIST>
+                              </ACCOUNTAUDITENTRIES.LIST>
+                              <AUDITENTRIES.LIST>
+                              </AUDITENTRIES.LIST>
+                              <INPUTCRALLOCS.LIST>
+                              </INPUTCRALLOCS.LIST>
+                              <DUTYHEADDETAILS.LIST>
+                              </DUTYHEADDETAILS.LIST>
+                              <EXCISEDUTYHEADDETAILS.LIST>
+                              </EXCISEDUTYHEADDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Integrated Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Central Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>State Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Cess</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <SUMMARYALLOCS.LIST>
+                              </SUMMARYALLOCS.LIST>
+                              <STPYMTDETAILS.LIST>
+                              </STPYMTDETAILS.LIST>
+                              <EXCISEPAYMENTALLOCATIONS.LIST>
+                              </EXCISEPAYMENTALLOCATIONS.LIST>
+                              <TAXBILLALLOCATIONS.LIST>
+                              </TAXBILLALLOCATIONS.LIST>
+                              <TAXOBJECTALLOCATIONS.LIST>
+                              </TAXOBJECTALLOCATIONS.LIST>
+                              <TDSEXPENSEALLOCATIONS.LIST>
+                              </TDSEXPENSEALLOCATIONS.LIST>
+                              <VATSTATUTORYDETAILS.LIST>
+                              </VATSTATUTORYDETAILS.LIST>
+                              <COSTTRACKALLOCATIONS.LIST>
+                              </COSTTRACKALLOCATIONS.LIST>
+                              <REFVOUCHERDETAILS.LIST>
+                              </REFVOUCHERDETAILS.LIST>
+                              <INVOICEWISEDETAILS.LIST>
+                              </INVOICEWISEDETAILS.LIST>
+                              <VATITCDETAILS.LIST>
+                              </VATITCDETAILS.LIST>
+                              <ADVANCETAXDETAILS.LIST>
+                              </ADVANCETAXDETAILS.LIST>
+                            </LEDGERENTRIES.LIST>
+                            <LEDGERENTRIES.LIST>
+                              <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                                <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                              </OLDAUDITENTRYIDS.LIST>
+                              <BASICRATEOFINVOICETAX.LIST TYPE="Number">
+                                <BASICRATEOFINVOICETAX>0</BASICRATEOFINVOICETAX>
+                              </BASICRATEOFINVOICETAX.LIST>
+                              <ROUNDTYPE />
+                              <LEDGERNAME>SGST</LEDGERNAME>
+                              <GSTCLASS />
+                              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                              <LEDGERFROMITEM>No</LEDGERFROMITEM>
+                              <REMOVEZEROENTRIES>No</REMOVEZEROENTRIES>
+                              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+                              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+                              <AMOUNT>26.31</AMOUNT>
+                              <VATEXPAMOUNT>26.31</VATEXPAMOUNT>
+                              <SERVICETAXDETAILS.LIST />
+                              <BANKALLOCATIONS.LIST />
+                              <SERVICETAXDETAILS.LIST>
+                              </SERVICETAXDETAILS.LIST>
+                              <CATEGORYALLOCATIONS.LIST>
+                              </CATEGORYALLOCATIONS.LIST>
+                              <BANKALLOCATIONS.LIST>
+                              </BANKALLOCATIONS.LIST>
+                              <BILLALLOCATIONS.LIST>
+                              </BILLALLOCATIONS.LIST>
+                              <INTERESTCOLLECTION.LIST>
+                              </INTERESTCOLLECTION.LIST>
+                              <OLDAUDITENTRIES.LIST>
+                              </OLDAUDITENTRIES.LIST>
+                              <ACCOUNTAUDITENTRIES.LIST>
+                              </ACCOUNTAUDITENTRIES.LIST>
+                              <AUDITENTRIES.LIST>
+                              </AUDITENTRIES.LIST>
+                              <INPUTCRALLOCS.LIST>
+                              </INPUTCRALLOCS.LIST>
+                              <DUTYHEADDETAILS.LIST>
+                              </DUTYHEADDETAILS.LIST>
+                              <EXCISEDUTYHEADDETAILS.LIST>
+                              </EXCISEDUTYHEADDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Integrated Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Central Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>State Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Cess</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <SUMMARYALLOCS.LIST>
+                              </SUMMARYALLOCS.LIST>
+                              <STPYMTDETAILS.LIST>
+                              </STPYMTDETAILS.LIST>
+                              <EXCISEPAYMENTALLOCATIONS.LIST>
+                              </EXCISEPAYMENTALLOCATIONS.LIST>
+                              <TAXBILLALLOCATIONS.LIST>
+                              </TAXBILLALLOCATIONS.LIST>
+                              <TAXOBJECTALLOCATIONS.LIST>
+                              </TAXOBJECTALLOCATIONS.LIST>
+                              <TDSEXPENSEALLOCATIONS.LIST>
+                              </TDSEXPENSEALLOCATIONS.LIST>
+                              <VATSTATUTORYDETAILS.LIST>
+                              </VATSTATUTORYDETAILS.LIST>
+                              <COSTTRACKALLOCATIONS.LIST>
+                              </COSTTRACKALLOCATIONS.LIST>
+                              <REFVOUCHERDETAILS.LIST>
+                              </REFVOUCHERDETAILS.LIST>
+                              <INVOICEWISEDETAILS.LIST>
+                              </INVOICEWISEDETAILS.LIST>
+                              <VATITCDETAILS.LIST>
+                              </VATITCDETAILS.LIST>
+                              <ADVANCETAXDETAILS.LIST>
+                              </ADVANCETAXDETAILS.LIST>
+                            </LEDGERENTRIES.LIST>
+                            <PAYROLLMODEOFPAYMENT.LIST />
+                            <ATTDRECORDS.LIST />
+                            <TEMPGSTRATEDETAILS.LIST />
+                          <LEDGERENTRIES.LIST>
+                               <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                                <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                               </OLDAUDITENTRYIDS.LIST>
+                               <ROUNDTYPE>Normal Rounding</ROUNDTYPE>
+                               <LEDGERNAME>Round Off</LEDGERNAME>
+                               <GSTCLASS/>
+                               <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                               <LEDGERFROMITEM>No</LEDGERFROMITEM>
+                               <REMOVEZEROENTRIES>No</REMOVEZEROENTRIES>
+                               <ISPARTYLEDGER>No</ISPARTYLEDGER>
+                               <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+                               <ISCAPVATTAXALTERED>No</ISCAPVATTAXALTERED>
+                               <ISCAPVATNOTCLAIMED>No</ISCAPVATNOTCLAIMED>
+                               <ROUNDLIMIT> 1</ROUNDLIMIT>
+                               <AMOUNT>-0.02</AMOUNT>
+                               <VATEXPAMOUNT>-0.02</VATEXPAMOUNT>
+                               <INVOICEROUNDINGDIFFVAL>-0.02</INVOICEROUNDINGDIFFVAL>
+                               <SERVICETAXDETAILS.LIST>       </SERVICETAXDETAILS.LIST>
+                               <BANKALLOCATIONS.LIST>       </BANKALLOCATIONS.LIST>
+                               <BILLALLOCATIONS.LIST>       </BILLALLOCATIONS.LIST>
+                               <INTERESTCOLLECTION.LIST>       </INTERESTCOLLECTION.LIST>
+                               <OLDAUDITENTRIES.LIST>       </OLDAUDITENTRIES.LIST>
+                               <ACCOUNTAUDITENTRIES.LIST>       </ACCOUNTAUDITENTRIES.LIST>
+                               <AUDITENTRIES.LIST>       </AUDITENTRIES.LIST>
+                               <INPUTCRALLOCS.LIST>       </INPUTCRALLOCS.LIST>
+                               <DUTYHEADDETAILS.LIST>       </DUTYHEADDETAILS.LIST>
+                               <EXCISEDUTYHEADDETAILS.LIST>       </EXCISEDUTYHEADDETAILS.LIST>
+                               <RATEDETAILS.LIST>       </RATEDETAILS.LIST>
+                               <SUMMARYALLOCS.LIST>       </SUMMARYALLOCS.LIST>
+                               <STPYMTDETAILS.LIST>       </STPYMTDETAILS.LIST>
+                               <EXCISEPAYMENTALLOCATIONS.LIST>       </EXCISEPAYMENTALLOCATIONS.LIST>
+                               <TAXBILLALLOCATIONS.LIST>       </TAXBILLALLOCATIONS.LIST>
+                               <TAXOBJECTALLOCATIONS.LIST>       </TAXOBJECTALLOCATIONS.LIST>
+                               <TDSEXPENSEALLOCATIONS.LIST>       </TDSEXPENSEALLOCATIONS.LIST>
+                               <VATSTATUTORYDETAILS.LIST>       </VATSTATUTORYDETAILS.LIST>
+                               <COSTTRACKALLOCATIONS.LIST>       </COSTTRACKALLOCATIONS.LIST>
+                               <REFVOUCHERDETAILS.LIST>       </REFVOUCHERDETAILS.LIST>
+                               <INVOICEWISEDETAILS.LIST>       </INVOICEWISEDETAILS.LIST>
+                               <VATITCDETAILS.LIST>       </VATITCDETAILS.LIST>
+                               <ADVANCETAXDETAILS.LIST>       </ADVANCETAXDETAILS.LIST>
+                              </LEDGERENTRIES.LIST>
+                          </VOUCHER><VOUCHER REMOTEID="" VCHKEY="" VCHTYPE="Sales Dry Fruit" ACTION="Create" OBJVIEW="Invoice Voucher View">
+                            <ADDRESS.LIST TYPE="String"><ADDRESS>
+                              Nivetia Road</ADDRESS><ADDRESS>Nivetia Compound</ADDRESS><ADDRESS>Hajibapu Road.</ADDRESS><ADDRESS>Opp- Atul Building &amp; Near- Kwality Grain Sotre.,*Malad(E)*</ADDRESS><ADDRESS>Mumbai - 400097</ADDRESS><ADDRESS>Tel: 9821501320</ADDRESS>
+                            </ADDRESS.LIST>
+                            <BASICBUYERADDRESS.LIST TYPE="String">
+                            <BASICBUYERADDRESS>
+                              Nivetia Road</BASICBUYERADDRESS><BASICBUYERADDRESS>Nivetia Compound</BASICBUYERADDRESS><BASICBUYERADDRESS>Hajibapu Road.</BASICBUYERADDRESS><BASICBUYERADDRESS>Opp- Atul Building &amp; Near- Kwality Grain Sotre.,*Malad(E)*</BASICBUYERADDRESS><BASICBUYERADDRESS>Mumbai - 400097</BASICBUYERADDRESS><BASICBUYERADDRESS>Tel: 9821501320</BASICBUYERADDRESS>
+                              <BASICBUYERADDRESS></BASICBUYERADDRESS>
+                            </BASICBUYERADDRESS.LIST>
+                            <BASICORDERTERMS.LIST TYPE="String">
+                              <BASICORDERTERMS>
+                              </BASICORDERTERMS>
+                            </BASICORDERTERMS.LIST>
+                            <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                              <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                            </OLDAUDITENTRYIDS.LIST>
+                            <DATE>20220326</DATE>
+                            <GUID />
+                            <STATENAME>Maharashtra</STATENAME>
+                            <GSTREGISTRATIONTYPE>Unregistered</GSTREGISTRATIONTYPE>
+                            <NARRATION>
+                            </NARRATION>
+                            <COUNTRYOFRESIDENCE>India</COUNTRYOFRESIDENCE>
+                            <PARTYGSTIN></PARTYGSTIN>
+                            <TAXUNITNAME />
+                            <PARTYNAME>Sarvoday Trading (3186)</PARTYNAME>
+                            <VOUCHERTYPENAME>Dry Fruit Sales</VOUCHERTYPENAME>
+                            <REFERENCE>E/O/21-22/0031779</REFERENCE>
+                            <VOUCHERNUMBER>D2122-30760</VOUCHERNUMBER>
+                            <PARTYLEDGERNAME>Sarvoday Trading (3186)</PARTYLEDGERNAME>
+                            <BASICBASEPARTYNAME>Sarvoday Trading (3186)</BASICBASEPARTYNAME>
+                            <CSTFORMISSUETYPE />
+                            <CSTFORMRECVTYPE />
+                            <BUYERSCSTNUMBER>
+                            </BUYERSCSTNUMBER>
+                            <FBTPAYMENTTYPE />
+                            <PERSISTEDVIEW>Invoice Voucher View</PERSISTEDVIEW>
+                            <PLACEOFSUPPLY>Maharashtra</PLACEOFSUPPLY>
+                            <CONSIGNEEGSTIN></CONSIGNEEGSTIN>
+                            <BASICSHIPPEDBY>
+                            </BASICSHIPPEDBY>
+                            <BASICBUYERNAME>Sarvoday Trading (3186)</BASICBUYERNAME>
+                            <BASICSHIPDOCUMENTNO>
+                            </BASICSHIPDOCUMENTNO>
+                            <BASICORDERREF>
+                            </BASICORDERREF>
+                            <GSTREGISTRATIONTYPE>Regular</GSTREGISTRATIONTYPE>
+                            <BILLOFLADINGNO>
+                            </BILLOFLADINGNO>
+                            <BILLOFLADINGDATE>
+                            </BILLOFLADINGDATE>
+                            <BASICSHIPVESSELNO>
+                            </BASICSHIPVESSELNO>
+                            <BASICFINALDESTINATION>
+                            </BASICFINALDESTINATION>
+                            <BASICBUYERSSALESTAXNO>
+                            </BASICBUYERSSALESTAXNO>
+                            <BASICDUEDATEOFPYMT>
+                            </BASICDUEDATEOFPYMT>
+                            <BASICDATETIMEOFINVOICE>26 Mar 22</BASICDATETIMEOFINVOICE>
+                            <BASICDATETIMEOFREMOVAL>26 Mar 22</BASICDATETIMEOFREMOVAL>
+                            <VCHGSTCLASS />
+                            <CONSIGNEESTATENAME>
+                            </CONSIGNEESTATENAME>
+                            <COSTCENTRENAME>
+                            </COSTCENTRENAME>
+                            <DIFFACTUALQTY>No</DIFFACTUALQTY>
+                            <ISMSTFROMSYNC>No</ISMSTFROMSYNC>
+                            <ASORIGINAL>No</ASORIGINAL>
+                            <AUDITED>No</AUDITED>
+                            <FORJOBCOSTING>No</FORJOBCOSTING>
+                            <ISOPTIONAL>No</ISOPTIONAL>
+                            <EFFECTIVEDATE>20220326</EFFECTIVEDATE>
+                            <USEFOREXCISE>No</USEFOREXCISE>
+                            <ISFORJOBWORKIN>No</ISFORJOBWORKIN>
+                            <ALLOWCONSUMPTION>No</ALLOWCONSUMPTION>
+                            <USEFORINTEREST>No</USEFORINTEREST>
+                            <USEFORGAINLOSS>No</USEFORGAINLOSS>
+                            <USEFORGODOWNTRANSFER>No</USEFORGODOWNTRANSFER>
+                            <USEFORCOMPOUND>No</USEFORCOMPOUND>
+                            <USEFORSERVICETAX>No</USEFORSERVICETAX>
+                            <ISEXCISEVOUCHER>No</ISEXCISEVOUCHER>
+                            <EXCISETAXOVERRIDE>No</EXCISETAXOVERRIDE>
+                            <USEFORTAXUNITTRANSFER>No</USEFORTAXUNITTRANSFER>
+                            <EXCISEOPENING>No</EXCISEOPENING>
+                            <USEFORFINALPRODUCTION>No</USEFORFINALPRODUCTION>
+                            <ISTDSOVERRIDDEN>No</ISTDSOVERRIDDEN>
+                            <ISTCSOVERRIDDEN>No</ISTCSOVERRIDDEN>
+                            <ISTDSTCSCASHVCH>No</ISTDSTCSCASHVCH>
+                            <INCLUDEADVPYMTVCH>No</INCLUDEADVPYMTVCH>
+                            <ISSUBWORKSCONTRACT>No</ISSUBWORKSCONTRACT>
+                            <ISVATOVERRIDDEN>No</ISVATOVERRIDDEN>
+                            <IGNOREORIGVCHDATE>No</IGNOREORIGVCHDATE>
+                            <ISSERVICETAXOVERRIDDEN>No</ISSERVICETAXOVERRIDDEN>
+                            <ISISDVOUCHER>No</ISISDVOUCHER>
+                            <ISEXCISEOVERRIDDEN>No</ISEXCISEOVERRIDDEN>
+                            <ISEXCISESUPPLYVCH>No</ISEXCISESUPPLYVCH>
+                            <ISGSTOVERRIDDEN>No</ISGSTOVERRIDDEN>
+                            <GSTNOTEXPORTED>No</GSTNOTEXPORTED>
+                            <ISVATPRINCIPALACCOUNT>No</ISVATPRINCIPALACCOUNT>
+                            <ISSHIPPINGWITHINSTATE>No</ISSHIPPINGWITHINSTATE>
+                            <ISCANCELLED>No</ISCANCELLED>
+                            <HASCASHFLOW>No</HASCASHFLOW>
+                            <ISPOSTDATED>No</ISPOSTDATED>
+                            <USETRACKINGNUMBER>No</USETRACKINGNUMBER>
+                            <ISINVOICE>Yes</ISINVOICE>
+                            <MFGJOURNAL>No</MFGJOURNAL>
+                            <HASDISCOUNTS>No</HASDISCOUNTS>
+                            <ISCOSTCENTRE> No </ISCOSTCENTRE>
+                            <ASPAYSLIP>No</ASPAYSLIP>
+                            <ISSTXNONREALIZEDVCH>No</ISSTXNONREALIZEDVCH>
+                            <ISEXCISEMANUFACTURERON>No</ISEXCISEMANUFACTURERON>
+                            <ISBLANKCHEQUE>No</ISBLANKCHEQUE>
+                            <ISVOID>No</ISVOID>
+                            <ISONHOLD>No</ISONHOLD>
+                            <ORDERLINESTATUS>No</ORDERLINESTATUS>
+                            <VATISAGNSTCANCSALES>No</VATISAGNSTCANCSALES>
+                            <VATISPURCEXEMPTED>No</VATISPURCEXEMPTED>
+                            <ISVATRESTAXINVOICE>No</ISVATRESTAXINVOICE>
+                            <VATISASSESABLECALCVCH>Yes</VATISASSESABLECALCVCH>
+                            <ISVATDUTYPAID>Yes</ISVATDUTYPAID>
+                            <ISDELIVERYSAMEASCONSIGNEE>No</ISDELIVERYSAMEASCONSIGNEE>
+                            <ISDISPATCHSAMEASCONSIGNOR>No</ISDISPATCHSAMEASCONSIGNOR>
+                            <ISDELETED>No</ISDELETED>
+                            <CHANGEVCHMODE>No</CHANGEVCHMODE>
+                            <ALTERID />
+                            <MASTERID />
+                            <VOUCHERKEY />
+                            <EXCLUDEDTAXATIONS.LIST />
+                            <OLDAUDITENTRIES.LIST />
+                            <ACCOUNTAUDITENTRIES.LIST />
+                            <AUDITENTRIES.LIST />
+                            <DUTYHEADDETAILS.LIST />
+                            <SUPPLEMENTARYDUTYHEADDETAILS.LIST />
+                            <INVOICEDELNOTES.LIST>
+                              <BASICSHIPPINGDATE>
+                              </BASICSHIPPINGDATE>
+                              <BASICSHIPDELIVERYNOTE>
+                              </BASICSHIPDELIVERYNOTE>
+                            </INVOICEDELNOTES.LIST>
+                            <INVOICEINDENTLIST.LIST />
+                            <ATTENDANCEENTRIES.LIST />
+                            <ORIGINVOICEDETAILS.LIST />
+                            <INVOICEEXPORTLIST.LIST />
+                            <INVOICEORDERLIST.LIST>
+                              <BASICORDERDATE>
+                              </BASICORDERDATE>
+                              <BASICPURCHASEORDERNO>
+                              </BASICPURCHASEORDERNO>
+                            </INVOICEORDERLIST.LIST>
+                            <LEDGERENTRIES.LIST>
+                              <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                                <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                              </OLDAUDITENTRYIDS.LIST>
+                              <LEDGERNAME>Sarvoday Trading(3186)</LEDGERNAME>
+                              <GSTCLASS />
+                              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+                              <LEDGERFROMITEM>No</LEDGERFROMITEM>
+                              <REMOVEZEROENTRIES>No</REMOVEZEROENTRIES>
+                              <ISPARTYLEDGER>Yes</ISPARTYLEDGER>
+                              <ISLASTDEEMEDPOSITIVE>Yes</ISLASTDEEMEDPOSITIVE>
+                              <AMOUNT> -1100.00</AMOUNT>
+                              <SERVICETAXDETAILS.LIST />
+                              <BANKALLOCATIONS.LIST />
+                              <BILLALLOCATIONS.LIST>
+                                <NAME>order no D2122-30760 </NAME>
+                                <BILLTYPE>New Ref</BILLTYPE>
+                                <TDSDEDUCTEEISSPECIALRATE>No</TDSDEDUCTEEISSPECIALRATE>
+                                <AMOUNT> -1100.00</AMOUNT>
+                                <INTERESTCOLLECTION.LIST />
+                                <STBILLCATEGORIES.LIST />
+                              </BILLALLOCATIONS.LIST>
+                              <INTERESTCOLLECTION.LIST />
+                              <OLDAUDITENTRIES.LIST />
+                              <ACCOUNTAUDITENTRIES.LIST />
+                              <AUDITENTRIES.LIST />
+                              <INPUTCRALLOCS.LIST />
+                              <DUTYHEADDETAILS.LIST />
+                              <EXCISEDUTYHEADDETAILS.LIST />
+                              <RATEDETAILS.LIST />
+                              <SUMMARYALLOCS.LIST />
+                              <STPYMTDETAILS.LIST />
+                              <EXCISEPAYMENTALLOCATIONS.LIST />
+                              <TAXBILLALLOCATIONS.LIST />
+                              <TAXOBJECTALLOCATIONS.LIST />
+                              <TDSEXPENSEALLOCATIONS.LIST />
+                              <VATSTATUTORYDETAILS.LIST />
+                              <COSTTRACKALLOCATIONS.LIST />
+                              <REFVOUCHERDETAILS.LIST />
+                              <INVOICEWISEDETAILS.LIST />
+                              <VATITCDETAILS.LIST />
+                              <ADVANCETAXDETAILS.LIST />
+                            </LEDGERENTRIES.LIST>
+                            <ALLINVENTORYENTRIES.LIST>
+                                      <BASICUSERDESCRIPTION.LIST TYPE="String">
+                                        <BASICUSERDESCRIPTION>
+                                        </BASICUSERDESCRIPTION>
+                                      </BASICUSERDESCRIPTION.LIST>
+                                      <STOCKITEMNAME>MAKHANA RAJBHOG - 250g</STOCKITEMNAME>
+                                      <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                                      <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+                                      <ISAUTONEGATE>No</ISAUTONEGATE>
+                                      <ISCUSTOMSCLEARANCE>No</ISCUSTOMSCLEARANCE>
+                                      <ISTRACKCOMPONENT>No</ISTRACKCOMPONENT>
+                                      <ISTRACKPRODUCTION>No</ISTRACKPRODUCTION>
+                                      <ISPRIMARYITEM>No</ISPRIMARYITEM>
+                                      <ISSCRAP>No</ISSCRAP>
+                                      <RATE>550/KG</RATE>
+                                      <DISCOUNT>
+                                      </DISCOUNT>
+                                      <AMOUNT>1100</AMOUNT>
+                                      <VATASSBLVALUE>1100</VATASSBLVALUE>
+                                      <ACTUALQTY>2</ACTUALQTY>
+                                      <BILLEDQTY>2</BILLEDQTY>
+                                      <BATCHALLOCATIONS.LIST>
+                                        <MFDON>
+                                        </MFDON>
+                                        <GODOWNNAME>Vasai - Godown</GODOWNNAME>
+                                        <BATCHNAME> Primary Batch</BATCHNAME>
+                                        <DESTINATIONGODOWNNAME>Vasai - Godown</DESTINATIONGODOWNNAME>
+                                        <INDENTNO />
+                                        <ORDERNO />
+                                        <TRACKINGNUMBER />
+                                        <DYNAMICCSTISCLEARED>No</DYNAMICCSTISCLEARED>
+                                        <AMOUNT>1100</AMOUNT>
+                                        <ACTUALQTY>2 KG</ACTUALQTY>
+                                        <BILLEDQTY>2 KG</BILLEDQTY>
+                                        <ADDITIONALDETAILS.LIST />
+                                        <VOUCHERCOMPONENTLIST.LIST />
+                                      </BATCHALLOCATIONS.LIST>
+                                      <ACCOUNTINGALLOCATIONS.LIST>
+                                        <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                                          <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                                        </OLDAUDITENTRYIDS.LIST>
+                                        <LEDGERNAME>Sale - Vasai</LEDGERNAME>
+                                        <GSTCLASS />
+                                        <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                                        <LEDGERFROMITEM>No</LEDGERFROMITEM>
+                                        <REMOVEZEROENTRIES>No</REMOVEZEROENTRIES>
+                                        <ISPARTYLEDGER>No</ISPARTYLEDGER>
+                                        <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+                                        <AMOUNT>1100</AMOUNT>
+                                        <SERVICETAXDETAILS.LIST />
+                                        <BANKALLOCATIONS.LIST />
+                                        <BILLALLOCATIONS.LIST />
+                                        <INTERESTCOLLECTION.LIST />
+                                        <OLDAUDITENTRIES.LIST />
+                                        <ACCOUNTAUDITENTRIES.LIST />
+                                        <AUDITENTRIES.LIST />
+                                        <INPUTCRALLOCS.LIST />
+                                        <DUTYHEADDETAILS.LIST />
+                                        <EXCISEDUTYHEADDETAILS.LIST />
+                                        <RATEDETAILS.LIST />
+                                        <SUMMARYALLOCS.LIST />
+                                        <STPYMTDETAILS.LIST />
+                                        <EXCISEPAYMENTALLOCATIONS.LIST />
+                                        <TAXBILLALLOCATIONS.LIST />
+                                        <TAXOBJECTALLOCATIONS.LIST />
+                                        <TDSEXPENSEALLOCATIONS.LIST />
+                                        <VATSTATUTORYDETAILS.LIST />
+                                        <COSTTRACKALLOCATIONS.LIST />
+                                        <REFVOUCHERDETAILS.LIST />
+                                        <INVOICEWISEDETAILS.LIST />
+                                        <VATITCDETAILS.LIST />
+                                        <ADVANCETAXDETAILS.LIST />
+                                      </ACCOUNTINGALLOCATIONS.LIST>
+                                      <DUTYHEADDETAILS.LIST />
+                                      <SUPPLEMENTARYDUTYHEADDETAILS.LIST />
+                                      <TAXOBJECTALLOCATIONS.LIST />
+                                      <REFVOUCHERDETAILS.LIST />
+                                      <EXCISEALLOCATIONS.LIST />
+                                      <EXPENSEALLOCATIONS.LIST />
+                                    </ALLINVENTORYENTRIES.LIST>
+                            <LEDGERENTRIES.LIST>
+                              <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                                <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                              </OLDAUDITENTRYIDS.LIST>
+                              <BASICRATEOFINVOICETAX.LIST TYPE="Number">
+                                <BASICRATEOFINVOICETAX>0</BASICRATEOFINVOICETAX>
+                              </BASICRATEOFINVOICETAX.LIST>
+                              <ROUNDTYPE />
+                              <LEDGERNAME>CGST</LEDGERNAME>
+                              <GSTCLASS />
+                              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                              <LEDGERFROMITEM>No</LEDGERFROMITEM>
+                              <REMOVEZEROENTRIES>No</REMOVEZEROENTRIES>
+                              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+                              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+                              <AMOUNT> 0</AMOUNT>
+                              <VATEXPAMOUNT>0</VATEXPAMOUNT>
+                              <SERVICETAXDETAILS.LIST />
+                              <BANKALLOCATIONS.LIST />
+                              <SERVICETAXDETAILS.LIST>
+                              </SERVICETAXDETAILS.LIST>
+                              <CATEGORYALLOCATIONS.LIST>
+                              </CATEGORYALLOCATIONS.LIST>
+                              <BANKALLOCATIONS.LIST>
+                              </BANKALLOCATIONS.LIST>
+                              <BILLALLOCATIONS.LIST>
+                              </BILLALLOCATIONS.LIST>
+                              <INTERESTCOLLECTION.LIST>
+                              </INTERESTCOLLECTION.LIST>
+                              <OLDAUDITENTRIES.LIST>
+                              </OLDAUDITENTRIES.LIST>
+                              <ACCOUNTAUDITENTRIES.LIST>
+                              </ACCOUNTAUDITENTRIES.LIST>
+                              <AUDITENTRIES.LIST>
+                              </AUDITENTRIES.LIST>
+                              <INPUTCRALLOCS.LIST>
+                              </INPUTCRALLOCS.LIST>
+                              <DUTYHEADDETAILS.LIST>
+                              </DUTYHEADDETAILS.LIST>
+                              <EXCISEDUTYHEADDETAILS.LIST>
+                              </EXCISEDUTYHEADDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Integrated Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Central Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>State Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Cess</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <SUMMARYALLOCS.LIST>
+                              </SUMMARYALLOCS.LIST>
+                              <STPYMTDETAILS.LIST>
+                              </STPYMTDETAILS.LIST>
+                              <EXCISEPAYMENTALLOCATIONS.LIST>
+                              </EXCISEPAYMENTALLOCATIONS.LIST>
+                              <TAXBILLALLOCATIONS.LIST>
+                              </TAXBILLALLOCATIONS.LIST>
+                              <TAXOBJECTALLOCATIONS.LIST>
+                              </TAXOBJECTALLOCATIONS.LIST>
+                              <TDSEXPENSEALLOCATIONS.LIST>
+                              </TDSEXPENSEALLOCATIONS.LIST>
+                              <VATSTATUTORYDETAILS.LIST>
+                              </VATSTATUTORYDETAILS.LIST>
+                              <COSTTRACKALLOCATIONS.LIST>
+                              </COSTTRACKALLOCATIONS.LIST>
+                              <REFVOUCHERDETAILS.LIST>
+                              </REFVOUCHERDETAILS.LIST>
+                              <INVOICEWISEDETAILS.LIST>
+                              </INVOICEWISEDETAILS.LIST>
+                              <VATITCDETAILS.LIST>
+                              </VATITCDETAILS.LIST>
+                              <ADVANCETAXDETAILS.LIST>
+                              </ADVANCETAXDETAILS.LIST>
+                            </LEDGERENTRIES.LIST>
+                            <LEDGERENTRIES.LIST>
+                              <OLDAUDITENTRYIDS.LIST TYPE="Number">
+                                <OLDAUDITENTRYIDS>-1</OLDAUDITENTRYIDS>
+                              </OLDAUDITENTRYIDS.LIST>
+                              <BASICRATEOFINVOICETAX.LIST TYPE="Number">
+                                <BASICRATEOFINVOICETAX>0</BASICRATEOFINVOICETAX>
+                              </BASICRATEOFINVOICETAX.LIST>
+                              <ROUNDTYPE />
+                              <LEDGERNAME>SGST</LEDGERNAME>
+                              <GSTCLASS />
+                              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+                              <LEDGERFROMITEM>No</LEDGERFROMITEM>
+                              <REMOVEZEROENTRIES>No</REMOVEZEROENTRIES>
+                              <ISPARTYLEDGER>No</ISPARTYLEDGER>
+                              <ISLASTDEEMEDPOSITIVE>No</ISLASTDEEMEDPOSITIVE>
+                              <AMOUNT>0</AMOUNT>
+                              <VATEXPAMOUNT>0</VATEXPAMOUNT>
+                              <SERVICETAXDETAILS.LIST />
+                              <BANKALLOCATIONS.LIST />
+                              <SERVICETAXDETAILS.LIST>
+                              </SERVICETAXDETAILS.LIST>
+                              <CATEGORYALLOCATIONS.LIST>
+                              </CATEGORYALLOCATIONS.LIST>
+                              <BANKALLOCATIONS.LIST>
+                              </BANKALLOCATIONS.LIST>
+                              <BILLALLOCATIONS.LIST>
+                              </BILLALLOCATIONS.LIST>
+                              <INTERESTCOLLECTION.LIST>
+                              </INTERESTCOLLECTION.LIST>
+                              <OLDAUDITENTRIES.LIST>
+                              </OLDAUDITENTRIES.LIST>
+                              <ACCOUNTAUDITENTRIES.LIST>
+                              </ACCOUNTAUDITENTRIES.LIST>
+                              <AUDITENTRIES.LIST>
+                              </AUDITENTRIES.LIST>
+                              <INPUTCRALLOCS.LIST>
+                              </INPUTCRALLOCS.LIST>
+                              <DUTYHEADDETAILS.LIST>
+                              </DUTYHEADDETAILS.LIST>
+                              <EXCISEDUTYHEADDETAILS.LIST>
+                              </EXCISEDUTYHEADDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Integrated Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Central Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>State Tax</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <RATEDETAILS.LIST>
+                                <GSTRATEDUTYHEAD>Cess</GSTRATEDUTYHEAD>
+                                <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                              </RATEDETAILS.LIST>
+                              <SUMMARYALLOCS.LIST>
+                              </SUMMARYALLOCS.LIST>
+                              <STPYMTDETAILS.LIST>
+                              </STPYMTDETAILS.LIST>
+                              <EXCISEPAYMENTALLOCATIONS.LIST>
+                              </EXCISEPAYMENTALLOCATIONS.LIST>
+                              <TAXBILLALLOCATIONS.LIST>
+                              </TAXBILLALLOCATIONS.LIST>
+                              <TAXOBJECTALLOCATIONS.LIST>
+                              </TAXOBJECTALLOCATIONS.LIST>
+                              <TDSEXPENSEALLOCATIONS.LIST>
+                              </TDSEXPENSEALLOCATIONS.LIST>
+                              <VATSTATUTORYDETAILS.LIST>
+                              </VATSTATUTORYDETAILS.LIST>
+                              <COSTTRACKALLOCATIONS.LIST>
+                              </COSTTRACKALLOCATIONS.LIST>
+                              <REFVOUCHERDETAILS.LIST>
+                              </REFVOUCHERDETAILS.LIST>
+                              <INVOICEWISEDETAILS.LIST>
+                              </INVOICEWISEDETAILS.LIST>
+                              <VATITCDETAILS.LIST>
+                              </VATITCDETAILS.LIST>
+                              <ADVANCETAXDETAILS.LIST>
+                              </ADVANCETAXDETAILS.LIST>
+                            </LEDGERENTRIES.LIST>
+                            <PAYROLLMODEOFPAYMENT.LIST />
+                            <ATTDRECORDS.LIST />
+                            <TEMPGSTRATEDETAILS.LIST />
+                          </VOUCHER></TALLYMESSAGE>
+                        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+                         <COMPANY>
+                          <REMOTECMPINFO.LIST MERGE="Yes">
+                           <NAME>508ae971-4004-433e-8332-aa88752545a2</NAME>
+                           <REMOTECMPNAME>Expede Global - (21-22)</REMOTECMPNAME>
+                           <REMOTECMPSTATE>Maharashtra</REMOTECMPSTATE>
+                          </REMOTECMPINFO.LIST>
+                         </COMPANY>
+                        </TALLYMESSAGE>
+                        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+                         <COMPANY>
+                          <REMOTECMPINFO.LIST MERGE="Yes">
+                           <NAME>508ae971-4004-433e-8332-aa88752545a2</NAME>
+                           <REMOTECMPNAME>Expede Global - (21-22)</REMOTECMPNAME>
+                           <REMOTECMPSTATE>Maharashtra</REMOTECMPSTATE>
+                          </REMOTECMPINFO.LIST>
+                         </COMPANY>
+                        </TALLYMESSAGE>
+                      </REQUESTDATA>
+                    </IMPORTDATA>
+                  </BODY>
+                </ENVELOPE>

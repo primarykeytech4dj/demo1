@@ -1,0 +1,25 @@
+created by Deepak Jha
+Last Update Date - 14th April, 2018
+Version 1.0
+Admin Menu Module
+/*  
+	14th April, 2018
+	Author - Deepak Jha
+*/
+
+1. Replaced ' ' with - in slug field through jquery. related changes done in admin footer.php
+2. Parent Menu visibility issue fixed
+
+
+
+Version 1.1
+Admin Menu Module
+/*  
+	26th April, 2018
+	Author - Deepak Jha
+*/
+
+1. Removed common method of models from menus_model and pktlib
+2. Created new pktdblib for common database functions
+
+

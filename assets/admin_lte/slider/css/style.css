@@ -1,0 +1,17 @@
+@font-face{
+	src:url('../fonts/Roboto/Roboto-Regular.ttf');
+	font-family: roboR;
+}
+
+@font-face{
+	src:url('../fonts/Roboto/Roboto-Medium.ttf');
+	font-family: roboSB;
+}
+
+body{
+	font-family: roboR;
+}
+table tr th{
+	font-weight: normal;
+	font-family: roboSB;
+}

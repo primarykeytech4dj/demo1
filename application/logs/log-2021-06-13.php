@@ -1,0 +1,20 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2021-06-13 17:03:04 --> Severity: Warning --> array_walk_recursive() expects parameter 2 to be a valid callback, class 'SimpleXMLElement' does not have a method 'news' /home2/primaryk/emarkit.patanjaliudaipur.com/application/libraries/Pktlib.php 884
+ERROR - 2021-06-13 17:03:04 --> Severity: Warning --> array_walk_recursive() expects parameter 2 to be a valid callback, class 'SimpleXMLElement' does not have a method 'news' /home2/primaryk/emarkit.patanjaliudaipur.com/application/libraries/Pktlib.php 884
+ERROR - 2021-06-13 17:03:05 --> Severity: Warning --> array_walk_recursive() expects parameter 2 to be a valid callback, class 'SimpleXMLElement' does not have a method 'news' /home2/primaryk/emarkit.patanjaliudaipur.com/application/libraries/Pktlib.php 884
+ERROR - 2021-06-13 17:03:05 --> Severity: Warning --> array_walk_recursive() expects parameter 2 to be a valid callback, class 'SimpleXMLElement' does not have a method 'news' /home2/primaryk/emarkit.patanjaliudaipur.com/application/libraries/Pktlib.php 884
+ERROR - 2021-06-13 17:03:05 --> Severity: Warning --> array_walk_recursive() expects parameter 2 to be a valid callback, class 'SimpleXMLElement' does not have a method 'news' /home2/primaryk/emarkit.patanjaliudaipur.com/application/libraries/Pktlib.php 884
+ERROR - 2021-06-13 17:03:06 --> Severity: Warning --> array_walk_recursive() expects parameter 2 to be a valid callback, class 'SimpleXMLElement' does not have a method 'news' /home2/primaryk/emarkit.patanjaliudaipur.com/application/libraries/Pktlib.php 884
+ERROR - 2021-06-13 17:22:35 --> Severity: Warning --> array_walk_recursive() expects parameter 2 to be a valid callback, class 'SimpleXMLElement' does not have a method 'news' /home2/primaryk/emarkit.patanjaliudaipur.com/application/libraries/Pktlib.php 884
+ERROR - 2021-06-13 17:22:36 --> Severity: Warning --> array_walk_recursive() expects parameter 2 to be a valid callback, class 'SimpleXMLElement' does not have a method 'news' /home2/primaryk/emarkit.patanjaliudaipur.com/application/libraries/Pktlib.php 884
+ERROR - 2021-06-13 17:22:36 --> Severity: Warning --> array_walk_recursive() expects parameter 2 to be a valid callback, class 'SimpleXMLElement' does not have a method 'news' /home2/primaryk/emarkit.patanjaliudaipur.com/application/libraries/Pktlib.php 884
+ERROR - 2021-06-13 17:22:37 --> Severity: Warning --> array_walk_recursive() expects parameter 2 to be a valid callback, class 'SimpleXMLElement' does not have a method 'news' /home2/primaryk/emarkit.patanjaliudaipur.com/application/libraries/Pktlib.php 884
+ERROR - 2021-06-13 17:22:37 --> Severity: Warning --> array_walk_recursive() expects parameter 2 to be a valid callback, class 'SimpleXMLElement' does not have a method 'news' /home2/primaryk/emarkit.patanjaliudaipur.com/application/libraries/Pktlib.php 884
+ERROR - 2021-06-13 17:22:37 --> Severity: Warning --> array_walk_recursive() expects parameter 2 to be a valid callback, class 'SimpleXMLElement' does not have a method 'news' /home2/primaryk/emarkit.patanjaliudaipur.com/application/libraries/Pktlib.php 884
+ERROR - 2021-06-13 21:25:19 --> Module controller failed to run: companies/setup
+ERROR - 2021-06-13 21:25:19 --> Module controller failed to run: roles/setup
+ERROR - 2021-06-13 21:25:34 --> Module controller failed to run: companies/setup
+ERROR - 2021-06-13 21:25:34 --> Module controller failed to run: roles/setup
+ERROR - 2021-06-13 21:25:34 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'is_active=true' at line 1 - Invalid query: Select * FROM login where username="9004466503" and otp="123456" is_active=true
+ERROR - 2021-06-13 21:25:34 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable /home2/primaryk/emarkit.patanjaliudaipur.com/application/modules/login/controllers/Login.php 2708

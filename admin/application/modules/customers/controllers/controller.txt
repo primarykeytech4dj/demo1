@@ -1,0 +1,120 @@
+   function upload_stocks(){
+        $this->pktdblib->set_table('companies');
+        $companies = $this->pktdblib->get_where_custom('is_active', true);
+        $data['companies'] = $companies->result_array();
+        $data['option']['company'][0] = 'Select Company';
+        foreach ($data['companies'] as $key => $company) {
+            $data['option']['company'][$company['id']] = $company['company_name'];
+        }
+        $data['meta_title'] = "Upload Customers";
+        $data['meta_description'] = "Upload Customers";
+        $data['meta_keyword'] = "Upload Customers";
+        $data['content'] = 'customers/upload_stocks';
+        echo Modules::run('templates/admin_template', $data);
+        //$this->load->view('customers/upload_customers');
+    }
+    function upload_stocks2(){
+        if($_SERVER['REQUEST_METHOD'] == 'POST') {
+            // print_r($_FILES);exit;
+            // echo '<pre>';
+            if(!empty($_FILES)) {
+                $fname = $_FILES['file']['name'];
+                $chk_ext = explode('.',$fname);
+                if(end($chk_ext)=='xlsx' || end($chk_ext) == 'xls' || end($chk_ext) == 'csv') {
+                    $filename = $_FILES['file']['tmp_name'];
+
+                    // if(end($chk_ext)=='xls')
+                    // {
+                    //     $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xls();
+                    // }else if(end($chk_ext)=='xlsx')
+                    // {
+                    //     $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
+                    // }
+                    // else{
+                    //     $reader = new \PhpOffice\PhpSpreadsheet\Reader\Csv();
+                    // }
+                    // $spreadsheet = $reader->load($filename);
+                    // $sheetdata = $spreadsheet->getActiveSheet()->getCellCollection();
+                    
+                    
+                    // $reader = \PhpOffice\PhpSpreadsheet\IOFactory::createReader('Xlsx');
+                    $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
+                    // $reader->setReadDataOnly(TRUE);
+                    $spreadsheet = $reader->load($filename);
+                    $worksheet = $spreadsheet->getSheet(0);
+                    // $nb = 0;
+                   
+                    foreach ($worksheet->getRowIterator() as $wkey=>$row) {
+
+                        $product = $worksheet->getCell("A$wkey")->getValue();      
+                        $quantity = $worksheet->getCell("B$wkey")->getValue();
+                        
+               if ($product == '') {
+                            $blank[$wkey]['product'] = $product;
+                            $blank[$wkey]['quantity'] = $quantity;
+                        } else {
+                            $data_value[$wkey]['product'] = $product;
+                            $data_value[$wkey]['quantity'] = $quantity;
+                        }
+                        // print_r($data_value);
+                    }
+
+                
+                    // $update = $this->pktdblib->custom_query("UPDATE pd SET pd.in_stock_qty = ".number_format($data_value[100]['quantity'],2)." FROM product_details as `pd` INNER JOIN products as `p` ON p.id= pd.product_id WHERE p.tally_name like '".strtoupper($data_value[100]['product'])."'");
+
+                    $error = [];
+                    // $uerror = '';
+                    $modified = date('Y-m-d H:i:s');
+                    foreach($data_value as $dvKey => $value){
+                    // {print_r($value['product']);exit;
+                        $searchProduct = $this->pktdblib->custom_query("SELECT p.tally_name,p.id FROM products as `p` WHERE p.tally_name like '".strtoupper($value['product'])."'");
+                        if(NULL !== $searchProduct && !empty($searchProduct)){
+
+                           $update = $this->pktdblib->custom_query("UPDATE product_details SET in_stock_qty = ".$value['quantity']." , modified = '". $modified ."' WHERE product_id = ".$searchProduct[0]['id']."");
+                           if($update == 1)
+                           {
+                               $datas['success'][$dvKey] = $update;
+                               
+                           }
+                           else{
+                            // $data['not_updated'][$dvKey] = $value['product'];
+                            
+                            $error['message'] = 'Unable to Update';
+                            $error['product'] = $value['product'];
+
+                           }
+                            // $data['']
+                        }
+                        else{
+                            // $data['not_found'][$dvKey] = $value['product'];
+                            $error['message'] = 'Not Found';
+                            $error['product'] = $value['product'];
+                            
+                        }
+                        if(NULL !== $error && !empty($error))
+                        {
+
+                            $data[$dvKey] = $error;
+                        }
+                        
+                    }
+
+                    if(count($data)>0)
+                    {
+                        $msg = ['status'=>'error', 'message'=>'Some Entries not updated','data'=>$data];
+                    }
+                    else if(count($data)<0){
+                        $msg = ['status'=>'success', 'message'=>'All Entries Updated Successfully!'];
+                    }
+                    echo json_encode($msg);
+                    exit;
+                   
+                    
+                }
+            }
+        }
+        // redirect(custom_constants::upload_customer_site_url);
+
+        //redirect('customer_sites/upload_multiple_sites');
+        //exit;
+    }

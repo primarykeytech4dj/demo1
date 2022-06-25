@@ -1,0 +1,443 @@
+<?php 
+$tab = "basic details";
+if(!defined('BASEPATH')) exit('No direct script access allowed ');
+
+$input['first_name'] = array(
+                          "name" => "data[customers][first_name]",
+                          "placeholder" => "first name(s) *",
+                          "max_length" => "64",
+                          "required" => "required",
+                          "class" => "form-control",
+                          "id" =>"first_name",
+                          );
+
+$input['middle_name'] = array(
+                          "name" => "data[customers][middle_name]",
+                          "placeholder" => "middle_name(s)",
+                          "max_length" => "64",
+/*                          "required" => "required",
+*/                           "class" => "form-control",
+                           "id" => "middle_name",
+                           );
+$input['referral_code'] = array(
+						'name' => 'data[customers][referral_code]',
+						'placeholder' => 'Referral Code',
+/*						'required' => 'required',
+*/						'class' => 'form-control',
+						'id' => 'referral_code',
+						);
+
+$input['surname'] = array(
+                      "name" => "data[customers][surname]",
+                      "placeholder" => "surname(s)",
+                      "max_length" => "64",
+/*                      "required" => "required",
+*/                      "class" => "form-control",
+                      "id" => "surname",
+                    );
+
+$input['company_name'] = array(
+                      "name" => "data[customers][company_name]",
+                      "placeholder" => "company_name(s) *",
+                      "max_length" => "255",
+                      /*"required" => "required",*/
+                      "class" => "form-control",
+                      "id" => "company_name",
+                    );
+
+$input['primary_email'] = array(
+                      "name" => "data[customers][primary_email]",
+                      "placeholder" => "primary_email(s) *",
+                      "max_length" => "100",
+                      "class" => "form-control",
+                      "id" => "primary_email",
+                    );
+
+$input['secondary_email'] = array(
+                      "name" => "data[customers][secondary_email]",
+                      "placeholder" => "secondary_email",
+                      "max_length" => "100",
+                      "class" => "form-control",
+                      "id" => "secondary_email",
+                    );
+
+
+$input['contact_1'] = array(
+                      "name" => "data[customers][contact_1]",
+                      "placeholder" => "contact_1 *",
+                      "max_length" => "12",
+                      "required" => "required",
+                      "class" => "form-control",
+                      "id" => "contact_1",
+                    );
+
+$input['contact_2'] = array(
+                      "name" => "data[customers][contact_2]",
+                      "placeholder" => "contact_2 *",
+                      "max_length" => "12",
+                      "class" => "form-control",
+                      "id" => "contact_2",
+                    );
+
+$input['pan_no'] = array(
+                      "name" => "data[customers][pan_no]",
+                      "placeholder" => "Pan No",
+                      "class" => "form-control",
+                      "id" => "pan_no",
+                    );
+
+$input['emp_code'] = array(
+                      "name" => "data[customers][emp_code]",
+                      "placeholder" => "Client Code",
+                      "class" => "form-control",
+                      "id" => "emp_code",
+                    );
+
+$input['adhaar_no'] = array(
+                      "name" => "data[customers][adhaar_no]",
+                      "placeholder" => "Adhaar Number",
+                      
+                      "class" => "form-control",
+                      "id" => "adhaar_no",
+                    );
+
+$input['has_multiple_sites'] = array(
+                      "name" => "data[customers][has_multiple_sites]",
+                      "type" => 'checkbox',
+                      "class" => "form-control flat-red",
+                      "id" => "has_multiple_sites",
+                    );
+
+$blood_group = array(
+                    "id" => "blood_group",
+                    "class" => "form-control",
+                    );
+
+
+$input['profile_img'] =  array(
+              "name" => "profile_img",
+              "placeholder" => "profile_img *",
+              "class" => "form-control",
+              "id" => "profile_img",
+              "value" =>  set_value('profile_img'),
+               );
+
+$input['joining_date'] =  array(   
+              "name" => "data[customers][joining_date]",
+              "placeholder" => "Joining Date *",
+              "max_length" => "12",
+              "required" => "required",
+              "class" => "col-xs-3 form-control datepicker datemask",
+              "id"  => "joining_date",
+              "value"=>date('d/m/Y')
+               );
+               
+$input['gst_no'] = array(
+            'name' => 'data[customers][gst_no]',
+            'placeholder' => 'GST No',
+            'class' => 'form-control',
+            'id' => 'gst_no',
+            ); 
+            
+if($customerHasZone){
+    $input['zone_no'] = array(
+            'name' => 'data[customer_zones][zone_no]',
+            'placeholder' => 'Zone No',
+            'class' => 'form-control',
+            'id' => 'zone_no',
+            );
+            
+    $input['route_no'] = array(
+            'name' => 'data[customer_zones][route_no]',
+            'placeholder' => 'Route No',
+            'class' => 'form-control',
+            'id' => 'route_no',
+            );
+}
+
+$input['company'] = [
+  'id'=>'company_id', 
+  'required'=>'required', 
+  'class'=>'form-control select2 required', 
+  'style'=>'width:100%'
+];
+
+$input['customer_category_id'] = array(
+                      "name" => "data[customers][customer_category_id]",
+                      "required" => "required",
+                      "class" => "form-control",
+                      "id" => "customer_category_id",
+                    );
+/*echo '<pre>';
+print_r($values_posted);
+echo '</pre>';*/
+if(isset($values_posted)) {
+  foreach ($values_posted as $post_name => $post_value) {
+    foreach ($post_value as $fieldkey => $fieldvalue) {
+      if(isset($input[$fieldkey]['type']) && $input[$fieldkey]['type']=='checkbox'){
+        $input[$fieldkey]['checked'] = "checked";
+      }else
+      $input[$fieldkey]['value'] = $fieldvalue;
+      //$input[$fieldkey]['value'] = $fieldvalue;
+    }
+  }
+}
+?>
+<!-- Content Header (Page header) -->
+<?php if(!$this->input->is_ajax_request()){ ?>
+<section class="content-header">
+  <h1>
+    Customer Module
+  </h1>
+  <ol class="breadcrumb">
+    <li><a href="<?php echo base_url(); ?>"><i class="fa fa-dashboard"></i>Dashboard</a></li>
+    <li><?php echo anchor(custom_constants::admin_customer_listing_url, ' Customer'); ?></li>
+    <li class="active"><?php echo anchor(custom_constants::new_customer_url, 'New Customer'); ?></li>
+  </ol> 
+</section>
+<?php } ?>
+
+
+<!-- Main content -->
+<section class="content">
+  <div class="row">
+    <div class="col-md-12" >
+      <!-- Horizontal Form -->
+      <?php 
+      $formClass = ($this->input->is_ajax_request())?"form-vertical submit-ajax":"form-vertical";
+      echo form_open_multipart(custom_constants::new_customer_url, ['class'=>$formClass, 'id' => 'register_customer']);
+      
+        if(NULL !== $this->session->flashdata('message')) {
+          $msg = $this->session->flashdata('message');?>
+          <div class="<?php echo $msg['class'];?>">
+            <?php echo $msg['message'];?>
+          </div>
+        <?php } ?>
+
+        <div class="box box-info">
+          <?php if(!$this->input->is_ajax_request()){ ?>
+            <div class="box-header with-border">
+              <h3 class="box-title">New Customer</h3>
+            </div><!-- /box-header -->
+          <?php } ?>
+          <!-- form start -->
+          <div class="box-body">
+            <div class="row">
+            <?php if($_SESSION['application']['multiple_company'] && !$this->session->userdata('application')['share_customer']){?>
+
+                    <div class="col-md-3">
+                      <div class="form-group">
+                        <label for="inputCompanyProduct" class="control-label">Company</label>
+                        
+                          <?php echo form_dropdown('data[companies_customers][company_id][]',$option['company'], set_value('data[companies_customers][company_id]'), $input['company']);?>
+                          <?php echo form_error('data[companies_customers][company_id]');?>
+                        
+                      </div>
+                    </div>
+                  <?php } ?>
+                  <div class="col-md-3">
+                    <div class="form-group">
+                      <label for="inputCompanyName" class="control-label">Category</label>
+                      
+                      <?php echo form_dropdown('data[customers][customer_category_id]', $option['category'], set_value('data[customers][customer_category_id]'), $input['customer_category_id']);?>
+                      <?php echo form_error('data[customers][customer_category_id]'); ?>
+                      
+                    </div>
+                  </div>
+            
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label for="inputFirst_name" class="control-label">First Name</label>
+                  
+                   <?php echo form_input($input['first_name']);?>
+                   <?php echo form_error('data[customers][first_name]');?>
+                  
+                </div>
+                </div>
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label for="inputMiddle_name" class="control-label">Middle Name</label>
+                  
+                  <?php echo form_input($input['middle_name']);?>
+                  <?php echo form_error('data[customers][middle_name]'); ?>
+                  
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label for="inputSurname" class="control-label">Surname</label>
+                  
+                <?php echo form_input($input['surname']);?>
+                <?php echo form_error('data[customers][surname]'); ?>
+                  
+                </div>
+              </div>
+            
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label for="inputCompany_name" class="control-label">Company Name</label>
+
+                  
+                  <?php echo form_input($input['company_name']);?>
+                  <?php echo form_error('data[customers][company_name]'); ?>
+                  
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label for="inputPrimary_email" class="control-label">Primary Email</label>
+                  
+                  <?php echo form_input($input['primary_email']);?>
+                  <?php echo form_error('data[customers][primary_email]'); ?>
+                  
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label for="inputSecondary_email" class="control-label">Other Email</label>
+
+                  
+                    <?php echo form_input($input['secondary_email']);?>
+                    <?php echo form_error('data[customers][secondary_email]'); ?>
+                  
+                </div>
+              </div>
+            
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label for="inputContact1" class="control-label">Contact 1</label>
+                  
+                    <?php echo form_input($input['contact_1']);?>
+                    <?php echo form_error('data[customers][contact_1]'); ?>
+                  
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-group">
+                   <label for="inputContact2" class="control-label">Contact 2</label>
+                  
+                    <?php echo form_input($input['contact_2']);?>
+                    <?php echo form_error('data[customers][contact_2]'); ?>
+                  
+                </div>
+              </div>
+              <!-- <div class="col-md-4" >
+                <div class="form-group">
+                  <label  class="col-sm-2 control-label">Blood Group</label>
+                  <div class="col-sm-10 col-md-10">
+                     <?php echo form_dropdown('data[customers][blood_group]', $option['blood_group'],set_value('data[customers][blood_group]'),"id = 'blood_group' class = 'form-control'");?>
+                      <?php echo form_error('data[customers][blood_group]');?>
+                  </div>
+                </div>
+              </div> -->
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label for="inputEmp_code" class="control-label">Client Code</label>
+                  
+                    <?php echo form_input($input['emp_code']);?>
+                    <?php echo form_error('data[customers][code]'); ?>
+                  
+                </div>
+              </div>
+            
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label for="inputPan_no" class="control-label">Pan No.</label>
+                  
+                    <?php echo form_input($input['pan_no']);?>
+                    <?php echo form_error('data[customers][pan_no]'); ?>
+                  
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-group">
+                   <label for="inputAdhaar_no" class="control-label">Adhaar Number</label>
+                  
+                    <?php echo form_input($input['adhaar_no']);?>
+                    <?php echo form_error('data[customers][adhaar_no]'); ?>
+                  
+                </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="form-group">
+                    <label for="inputGstNo" class="control-label">GST No</label>
+                    
+                      <?php echo form_input($input['gst_no']);?>
+                      <?php echo form_error('gst_no'); ?>
+                    
+                  </div>
+              </div>
+            
+            
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label for="inputhas_multiple_sites" class="control-label">Has Multiple Sites</label><br>
+                  
+                    <?php echo form_input($input['has_multiple_sites']);?>
+                    <?php echo form_error('data[customers][has_multiple_sites]'); ?>
+                  
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label for="inputJoining_date" class="control-label">System Entry Date</label>
+                  
+                    <?php echo form_input($input['joining_date']);?>
+                    <?php echo form_error('data[customers][joining_date]'); ?>
+                  
+                </div>
+              </div>
+              <div class="col-md-3">
+				<div class="form-group">
+					<label for="inputReferral_code" class="control-label">Referral Code</label>
+					
+						<?php echo form_input($input['referral_code']);?>
+						<?php echo form_error('referral_code'); ?>
+					
+				</div>
+			</div>
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label for="inputCity" class="control-label">Profile Image</label>
+                  
+                      <?php echo form_upload($input['profile_img']); ?>
+                          <?php echo form_error('profile_img'); ?>
+                  
+                </div>
+              </div>
+              <?php if($customerHasZone){ ?>
+              <div class="col-md-3">
+                  <div class="form-group">
+                    <label for="inputZoneNo" class="control-label">Zone No</label>
+                    
+                      <?php echo form_input($input['zone_no']);?>
+                      <?php echo form_error('zone_no'); ?>
+                    
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="form-group">
+                    <label for="inputRouteNo" class="control-label">Route No</label>
+                    
+                      <?php echo form_input($input['route_no']);?>
+                      <?php echo form_error('route_no'); ?>
+                    
+                  </div>
+              </div>
+              <?php } ?>
+            </div>
+            
+        </div><!-- /box-body -->
+        <div class="box-footer">  
+          <div class="response"></div>
+          <button type="submit" class="btn btn-info pull-left" id="Save">Save</button>
+          <?php echo nbs(3); ?>
+          <button type="reset" class="btn btn-info">cancel</button>
+        </div>
+        <!-- /.box-footer -->
+      </div><!-- /box -->
+      <?php echo form_close(); ?>
+      <?php echo nbs(3); ?>
+    </div>
+  </div>
+</section><!-- /.content -->

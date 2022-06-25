@@ -1,0 +1,15 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2022-04-03 22:31:49 --> Severity: Warning --> call_user_func_array() expects parameter 1 to be a valid callback, class 'Error' does not have a method 'error_404' /home/patanja1/public_html/emarkit/admin/system/core/CodeIgniter.php 532
+ERROR - 2022-04-03 22:32:12 --> Severity: Warning --> simplexml_load_string(): Entity: line 1: parser error : Opening and ending tag mismatch: META line 1 and head /home/patanja1/public_html/emarkit/admin/application/modules/tally/controllers/Tally.php 4384
+ERROR - 2022-04-03 22:32:12 --> Severity: Warning --> simplexml_load_string(): &quot;&gt;&lt;META HTTP-EQUIV=&quot;refresh&quot; CONTENT=&quot;0;URL=/cgi-sys/defaultwebpage.cgi&quot;&gt;&lt;/head&gt; /home/patanja1/public_html/emarkit/admin/application/modules/tally/controllers/Tally.php 4384
+ERROR - 2022-04-03 22:32:12 --> Severity: Warning --> simplexml_load_string():                                                                                ^ /home/patanja1/public_html/emarkit/admin/application/modules/tally/controllers/Tally.php 4384
+ERROR - 2022-04-03 22:32:12 --> Severity: Warning --> simplexml_load_string(): Entity: line 1: parser error : Opening and ending tag mismatch: META line 1 and html /home/patanja1/public_html/emarkit/admin/application/modules/tally/controllers/Tally.php 4384
+ERROR - 2022-04-03 22:32:12 --> Severity: Warning --> simplexml_load_string(): &quot;refresh&quot; CONTENT=&quot;0;URL=/cgi-sys/defaultwebpage.cgi&quot;&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html /home/patanja1/public_html/emarkit/admin/application/modules/tally/controllers/Tally.php 4384
+ERROR - 2022-04-03 22:32:12 --> Severity: Warning --> simplexml_load_string():                                                                                ^ /home/patanja1/public_html/emarkit/admin/application/modules/tally/controllers/Tally.php 4384
+ERROR - 2022-04-03 22:32:12 --> Severity: Warning --> simplexml_load_string(): Entity: line 2: parser error : Premature end of data in tag head line 1 /home/patanja1/public_html/emarkit/admin/application/modules/tally/controllers/Tally.php 4384
+ERROR - 2022-04-03 22:32:12 --> Severity: Warning --> simplexml_load_string():  /home/patanja1/public_html/emarkit/admin/application/modules/tally/controllers/Tally.php 4384
+ERROR - 2022-04-03 22:32:12 --> Severity: Warning --> simplexml_load_string(): ^ /home/patanja1/public_html/emarkit/admin/application/modules/tally/controllers/Tally.php 4384
+ERROR - 2022-04-03 22:32:12 --> Severity: Warning --> simplexml_load_string(): Entity: line 2: parser error : Premature end of data in tag html line 1 /home/patanja1/public_html/emarkit/admin/application/modules/tally/controllers/Tally.php 4384
+ERROR - 2022-04-03 22:32:12 --> Severity: Warning --> simplexml_load_string():  /home/patanja1/public_html/emarkit/admin/application/modules/tally/controllers/Tally.php 4384
+ERROR - 2022-04-03 22:32:12 --> Severity: Warning --> simplexml_load_string(): ^ /home/patanja1/public_html/emarkit/admin/application/modules/tally/controllers/Tally.php 4384
